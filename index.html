@@ -71,25 +71,25 @@
         alert("Осталось денег: " + (myMoney - -debt))
         // Not a Number - результат неудачного выполнения матем операции
 
-        Типы данных: (8/8)
+        // Типы данных: (8/8)
 
-        undefined - тип данных который показывает, что переменная без значения
-        let a
-        alert(a)
+        // undefined - тип данных который показывает, что переменная без значения
+        // let a
+        // alert(a)
 
-        null - тип данных который показывает пустое значение, но мы ставим его в ручную.
-        let a = null
+        // null - тип данных который показывает пустое значение, но мы ставим его в ручную.
+        // let a = null
 
-        object - пачка данных со свойством и значением 
-        let obj = {
-            name: "Amangeldi",
-            age: 30,
-            country: "Germany",
-        }
+        // object - пачка данных со свойством и значением 
+        // let obj = {
+        //     name: "Amangeldi",
+        //     age: 30,
+        //     country: "Germany",
+        // }
 
         // Symbol() - символ
 
-        // BigInt - большие числа
+        // BigInt - большие числа 151251n
 
         // pascal case
         // let MoneyForPayFees
@@ -104,6 +104,22 @@
         //  money-for-pay-fees.html   
 
 
+          let pokupka = prompt("Что Вы хотите купить?")
+    if (pokupka === "телефон" || pokupka === "ноутбук"){
+    alert("техника")
+    } else if (pokupka === "овощи" || pokupka === "фрукты"){
+    alert("еда")
+    }  else if(pokupka === "вода" || pokupka === "газировка"){
+    alert("напитки")
+    } else if(pokupka === "диван" || pokupka === "кресло"){
+    alert("мебель")
+    } else {
+        alert("Мы такое не продаем!")
+    }
+       
+
     </script>
 </body>
 </html>
+
+
