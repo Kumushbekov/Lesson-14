@@ -184,16 +184,30 @@
 
 let pokupka = prompt("Что Вы хотите купить?")
 switch(pokupka) {
+    
     case "телефон":
     case "ноутбук":
-    console.log("техника")
+    alert("техника")
     break
 
     case "овощи":
-        case "фрукты":
-        console.log("еда")
-        break
+    case "фрукты":
+    alert("еда")
+     break
     
+    case "вода":
+    case "газировка":
+    alert("напитки")
+    break     
+    
+    case "диван":
+    case "кресло":
+    alert("мебель")
+    break 
+
+    default:
+        alert("Мы такое не продаем!")
+
 }
 
 
