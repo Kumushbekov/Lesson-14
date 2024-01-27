@@ -289,14 +289,22 @@
 //     }
 // }
 
-
-function plusTwo(num) {
-    let result = num * 2
-    alert("Если Ваше число умножить на 2 будет " + result)
+function calculateTriangleArea (a, b, c) {
+    let p = (a + b + c) / 2
+    let result = Math.sqrt(p * (p - a) * (p - b) * (p - c))
+    alert("Площадь равна " + result)
 }
 
-let result = prompt("Напишите число")
-plusTwo(result)
+let a = prompt("Напишите число 1")
+let b = prompt("Напишите число 2")
+let c = prompt("Напишите число 3")
+
+// возможный вариант:
+// let a1 = Number(a)
+// let b1 = Number (b)
+// calculateTriangleArea(a1, b1, c1)
+
+calculateTriangleArea(Number(a), Number(b), Number(c))
 
 
 
