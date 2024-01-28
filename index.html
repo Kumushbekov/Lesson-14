@@ -289,22 +289,43 @@
 //     }
 // }
 
-function calculateTriangleArea (a, b, c) {
-    let p = (a + b + c) / 2
-    let result = Math.sqrt(p * (p - a) * (p - b) * (p - c))
-    alert("Площадь равна " + result)
-}
+// function calculateTriangleArea (a, b, c) {
+//     let p = (a + b + c) / 2
+//     let result = Math.sqrt(p * (p - a) * (p - b) * (p - c))
+//     alert("Площадь равна " + result)
+// }
 
-let a = prompt("Напишите число 1")
-let b = prompt("Напишите число 2")
-let c = prompt("Напишите число 3")
+// let a = prompt("Напишите число 1")
+// let b = prompt("Напишите число 2")
+// let c = prompt("Напишите число 3")
 
-возможный вариант:
-let a1 = Number(a)
-let b1 = Number (b)
-calculateTriangleArea(a1, b1, c1)
+// возможный вариант:
+// let a1 = Number(a)
+// let b1 = Number (b)
+// calculateTriangleArea(a1, b1, c1)
 
 // calculateTriangleArea(Number(a), Number(b), Number(c))
+
+
+
+
+function multipleTwoNumbers(num1, num2) {
+    let result = num1 * num2
+    alert("Произведение Ваших чисел " + result)
+}
+
+let num1 = prompt("Напишите первое число")
+let num2 = prompt("Напишите второе число")
+
+multipleTwoNumbers(num1, num2)
+
+
+function greet(name) {
+    alert("Привет, " + name) 
+}
+
+let name = prompt("Напишите свое имя:")
+greet(name)
 
 
 
