@@ -347,13 +347,27 @@
 // alert("Ваш выбор - " + faculty) 
 
 
+// let num = 0
+
+// function incrementNum() {
+//     const shouldIncrement = confirm("Увеличить число на единицу?")
+//     if(shouldIncrement) {
+//         num += 1 // увеличивает число на заданное нами и сохраняет
+//         // num++ // увеличивает и сохраняет число на единицу
+//     }
+//     alert("Текущее число - " + num)
+// }
+
+// incrementNum()
+// incrementNum()
+// incrementNum()
+
 let num = 0
 
 function incrementNum() {
     const shouldIncrement = confirm("Увеличить число на единицу?")
     if(shouldIncrement) {
-        num += 1 // увеличивает число на заданное нами и сохраняет
-        // num++ // увеличивает и сохраняет число на единицу
+        num = num + 1 
     }
     alert("Текущее число - " + num)
 }
