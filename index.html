@@ -362,19 +362,28 @@
 // incrementNum()
 // incrementNum()
 
+// let num = 0
+
+// function incrementNum() {
+//     const shouldIncrement = confirm("Увеличить число на единицу?")
+//     if(shouldIncrement) {
+//         num = num + 1 
+//     }
+//     alert("Текущее число - " + num)
+// }
+
+// incrementNum()
+// incrementNum()
+// incrementNum()
+
+let shouldIncrease = confirm("Увеличить ли число на единицу?")
 let num = 0
 
-function incrementNum() {
-    const shouldIncrement = confirm("Увеличить число на единицу?")
-    if(shouldIncrement) {
-        num = num + 1 
-    }
-    alert("Текущее число - " + num)
+if(shouldIncrease) {
+    num = 1
 }
 
-incrementNum()
-incrementNum()
-incrementNum()
+alert("Текущее число - " + num)
 
     </script>
 </body>
