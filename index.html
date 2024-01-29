@@ -328,24 +328,39 @@
 // greet(name)
 
 
-let faculty = "Не выбрано"
+// let faculty = "Не выбрано"
 
-function choose(vybor) {
-    const question = confirm("Хотите ли Вы поступить на " + vybor)
-    if(question) {
-        faculty = vybor
+// function choose(vybor) {
+//     const question = confirm("Хотите ли Вы поступить на " + vybor)
+//     if(question) {
+//         faculty = vybor
+//     }
+// }
+
+// choose("Хогвардс")
+// choose("Слизерин")
+// choose("Когтевран")
+// choose("Пуффендуй")
+// choose("Экономический")
+// choose("Юридический")
+// choose("Педагогический")
+// alert("Ваш выбор - " + faculty) 
+
+
+let num = 0
+
+function incrementNum() {
+    const shouldIncrement = confirm("Увеличить число на единицу?")
+    if(shouldIncrement) {
+        num += 1 // увеличивает число на заданное нами и сохраняет
+        // num++ // увеличивает и сохраняет число на единицу
     }
+    alert("Текущее число - " + num)
 }
 
-choose("Хогвардс")
-choose("Слизерин")
-choose("Когтевран")
-choose("Пуффендуй")
-choose("Экономический")
-choose("Юридический")
-choose("Педагогический")
-alert("Ваш выбор - " + faculty) 
-
+incrementNum()
+incrementNum()
+incrementNum()
 
     </script>
 </body>
