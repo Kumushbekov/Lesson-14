@@ -9,7 +9,7 @@
     
 
 
-    <script>
+    <script src="script.js">
         // Браузерные функции:
         // alert("Hello World!")
         // alert - просто сообщение, предупреждение
@@ -399,19 +399,32 @@
 // alert("Итого получается: " + word1 + word2) 
 
 
-function convertCelsius(C, F) {
-    let result = F=(9/5)*C+32
-    alert("Температура по Фаренгейту равна " + result)
+// function convertCelsius(C, F) {
+//     let result = F=(9/5)*C+32
+//     alert("Температура по Фаренгейту равна " + result)
+// }
+
+// let C = prompt("Напишите температуру в градусах Цельсия:")
+// let F = F=(9/5)*C+32
+
+// convertCelsius()
+// convertCelsius()
+
+
+function calculateTriangleArea (a, b, c) {
+ let p = (a + b + c) / 2
+ let result = Math.sqrt(p * (p - a) * (p - b) * (p - c))
+ return result
 }
+let a = prompt("Напишите число 1")
+let b = prompt("Напишите число 2")
+let c = prompt("Напишите число 3")
 
-let C = prompt("Напишите температуру в градусах Цельсия:")
-let F = F=(9/5)*C+32
-
-convertCelsius()
-convertCelsius()
-
-
-
+let a1 = Number(a)
+let b1 = Number (b)
+let c1 = Number (c)
+let result = calculateTriangleArea(a1, b1, c1)
+alert("Площадь равна " + result)
 
     </script>
 </body>
