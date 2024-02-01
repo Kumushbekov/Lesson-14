@@ -48,12 +48,21 @@
 
 
 
-function convertCelsius(C) {
-    let result = (9/5)*C+32
-    alert("Температура по Фаренгейту равна " + result)
+// function convertCelsius(C) {
+//     let result = (9/5)*C+32
+//     alert("Температура по Фаренгейту равна " + result)
+// }
+
+// let C = prompt("Напишите температуру в градусах Цельсия:")
+// let F=(9/5)*C+32
+
+// convertCelsius(C)
+
+
+function multiple(num1, num2) {
+    let result = num1 * num2
+    return result
 }
 
-let C = prompt("Напишите температуру в градусах Цельсия:")
-let F=(9/5)*C+32
-
-convertCelsius(C)
+let result = multiple (25, 25)
+alert(result)
