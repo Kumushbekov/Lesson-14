@@ -36,11 +36,24 @@
 
 
 
+// function convertCelsius(C) {
+//     let result = (9/5)*C+32
+//     return result
+// }
+
+// let C = prompt("Напишите температуру в градусах Цельсия:")
+// let result = convertCelsius(C)
+// alert("Температура по Фаренгейту равна " + result)
+
+
+
+
 function convertCelsius(C) {
     let result = (9/5)*C+32
-    return result
+    alert("Температура по Фаренгейту равна " + result)
 }
 
 let C = prompt("Напишите температуру в градусах Цельсия:")
-let result = convertCelsius(C)
-alert("Температура по Фаренгейту равна " + result)
+let F=(9/5)*C+32
+
+convertCelsius(C)
