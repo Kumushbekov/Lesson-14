@@ -66,3 +66,4 @@ function multiple(num1, num2) {
 
 let result = multiple (25, 25)
 alert(result)
+
