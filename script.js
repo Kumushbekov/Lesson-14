@@ -67,8 +67,14 @@
 // let result = multiple (25, 25)
 // alert(result)
 
-let firstIngredientsOfPlov = ingredientsForPlov[0]
-if(ingredientsForPlov[0] === "Масло") {
-    alert("Ты правильно начал!")
-}
-someFunctionForOurTask(ingredientsForPlov[0])
+// let firstIngredientsOfPlov = ingredientsForPlov[0]
+// if(ingredientsForPlov[0] === "Масло") {
+//     alert("Ты правильно начал!")
+// }
+// someFunctionForOurTask(ingredientsForPlov[0])
+
+let faculty = ["Гриффиндор", "Слизерин", "Пуффендуй", "Когтевран"]
+if(faculty[0] === "Слизерин") {
+    alert("Слизерин на первом!")    
+} else {
+    alert("10 очков Гриффиндору!")}
