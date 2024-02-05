@@ -73,8 +73,20 @@
 // }
 // someFunctionForOurTask(ingredientsForPlov[0])
 
-let faculty = ["Гриффиндор", "Слизерин", "Пуффендуй", "Когтевран"]
-if(faculty[0] === "Слизерин") {
-    alert("Слизерин на первом!")    
-} else {
-    alert("10 очков Гриффиндору!")}
+// let faculty = ["Гриффиндор", "Слизерин", "Пуффендуй", "Когтевран"]
+// if(faculty[0] === "Слизерин") {
+//     alert("Слизерин на первом!")    
+// } else {
+//     alert("10 очков Гриффиндору!")}
+
+
+
+let numbers = [4, 5, 7]
+
+function multiple(num1, num2, num3) {
+    let result = num1 + num2 + num3
+    return result
+}
+
+let result = multiple (numbers[0], numbers[1], numbers[2])
+alert(result)
