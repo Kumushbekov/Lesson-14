@@ -59,11 +59,16 @@
 // convertCelsius(C)
 
 
-function multiple(num1, num2) {
-    let result = num1 * num2
-    return result
+// function multiple(num1, num2) {
+//     let result = num1 * num2
+//     return result
+// }
+
+// let result = multiple (25, 25)
+// alert(result)
+
+let firstIngredientsOfPlov = ingredientsForPlov[0]
+if(ingredientsForPlov[0] === "Масло") {
+    alert("Ты правильно начал!")
 }
-
-let result = multiple (25, 25)
-alert(result)
-
+someFunctionForOurTask(ingredientsForPlov[0])
