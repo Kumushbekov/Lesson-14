@@ -81,12 +81,19 @@
 
 
 
-let numbers = [4, 5, 7]
+// let numbers = [4, 5, 7]
 
-function multiple(num1, num2, num3) {
-    let result = num1 + num2 + num3
-    return result
-}
+// function multiple(num1, num2, num3) {
+//     let result = num1 + num2 + num3
+//     return result
+// }
 
-let result = multiple (numbers[0], numbers[1], numbers[2])
-alert(result)
+// let result = multiple (numbers[0], numbers[1], numbers[2])
+// alert(result)
+
+
+
+faculties
+let isFirstFacultySlitherin = faculties[0] === "Слизерин"
+if(isFirstFacultySlitherin) {}
+getSumOfThree
