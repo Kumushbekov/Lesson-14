@@ -118,9 +118,18 @@
 //     alert("Необиссудь!")
 //  }
 
- let post = prompt("Напишите свою почту:")
- if (post.includes("@gmail.com")) {
-    alert("Почта принята!")
+//  let post = prompt("Напишите свою почту:")
+//  if (post.includes("@gmail.com")) {
+//     alert("Почта принята!")
+//  } else {
+//     alert("Почта невалидна!")
+//  }
+
+
+// 3. Задание:
+ let passwort = prompt("Напишите пароль:")
+ if ("qwerty123" === passwort.trim()) {
+    alert("Вы вошли на сайт")
  } else {
-    alert("Почта невалидна!")
+    alert("Необиссудь!")
  }
