@@ -111,9 +111,16 @@
 // alert(result)
 
 
- let faculty = prompt("Напишите название факультета:")
- if ("слизерин" === faculty.toLowerCase()) {
- alert("1000 очков Гриффиндору")  
+//  let faculty = prompt("Напишите название факультета:")
+//  if ("слизерин" === faculty.toLowerCase()) {
+//  alert("1000 очков Гриффиндору")  
+//  } else {
+//     alert("Необиссудь!")
+//  }
+
+ let post = prompt("Напишите свою почту:")
+ if (post.includes("@gmail.com")) {
+    alert("Почта принята!")
  } else {
-    alert("Необиссудь!")
+    alert("Почта невалидна!")
  }
