@@ -100,12 +100,20 @@
 
 
 
-let numbers = [4, 5, 7]
+// let numbers = [4, 5, 7]
 
-function multiple(num1, num2, num3) {
-    let result = num1 + num2 + num3
-    return result
-}
+// function multiple(num1, num2, num3) {
+//     let result = num1 + num2 + num3
+//     return result
+// }
 
-let result = multiple (numbers[0], numbers[1], numbers[2])
-alert(result)
+// let result = multiple (numbers[0], numbers[1], numbers[2])
+// alert(result)
+
+
+ let faculty = prompt("Напишите название факультета:")
+ if ("слизерин" === faculty.toLowerCase()) {
+ alert("1000 очков Гриффиндору")  
+ } else {
+    alert("Необиссудь!")
+ }
