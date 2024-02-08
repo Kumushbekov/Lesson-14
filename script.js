@@ -133,3 +133,17 @@
  } else {
     alert("Необиссудь!")
  }
+
+
+   let faculty = prompt("На какой факультет Вы хотите поступить?")
+     if(faculty === "Гриффиндор") {
+        alert("Добро пожаловать в " + faculty)
+     } else if(faculty === "Слизерин") {
+        alert("Добро пожаловать в " + faculty)
+     } else if(faculty === "Пуффендуй") {
+        alert("Добро пожаловать в " + faculty)
+     } else if(faculty === "Когтевран") {
+        alert("Добро пожаловать в " + faculty)
+     } else {
+        alert("Это к магглам")
+     }
