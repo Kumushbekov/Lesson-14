@@ -148,16 +148,16 @@
 //         alert("Это к магглам")
 //      }
 
-// for(let i = 0; i <= 4; i ++) {
-//     console.log("Salam")
-    // ? console.log("Salam " + i) - возможный вариант
-// }
+for(let i = 0; i <= 4; i ++) {
+    console.log("Salam")
+    ? console.log("Salam " + i) - возможный вариант
+}
 
 // 1. Задание:
 
-for(let i = 0; i <= 99; i ++) {
-    console.log(i + 1)
-}
+// for(let i = 0; i <= 99; i ++) {
+//     console.log(i + 1)
+// }
 
 // 2. Задание:
 
