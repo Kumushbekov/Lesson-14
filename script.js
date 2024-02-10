@@ -127,23 +127,53 @@
 
 
 // 3. Задание:
- let passwort = prompt("Напишите пароль:")
- if ("qwerty123" === passwort.trim()) {
-    alert("Вы вошли на сайт")
- } else {
-    alert("Необиссудь!")
- }
+//  let passwort = prompt("Напишите пароль:")
+//  if ("qwerty123" === passwort.trim()) {
+//     alert("Вы вошли на сайт")
+//  } else {
+//     alert("Необиссудь!")
+//  }
 
 
-   let faculty = prompt("На какой факультет Вы хотите поступить?")
-     if(faculty === "Гриффиндор") {
-        alert("Добро пожаловать в " + faculty)
-     } else if(faculty === "Слизерин") {
-        alert("Добро пожаловать в " + faculty)
-     } else if(faculty === "Пуффендуй") {
-        alert("Добро пожаловать в " + faculty)
-     } else if(faculty === "Когтевран") {
-        alert("Добро пожаловать в " + faculty)
-     } else {
-        alert("Это к магглам")
-     }
+//    let faculty = prompt("На какой факультет Вы хотите поступить?")
+//      if(faculty === "Гриффиндор") {
+//         alert("Добро пожаловать в " + faculty)
+//      } else if(faculty === "Слизерин") {
+//         alert("Добро пожаловать в " + faculty)
+//      } else if(faculty === "Пуффендуй") {
+//         alert("Добро пожаловать в " + faculty)
+//      } else if(faculty === "Когтевран") {
+//         alert("Добро пожаловать в " + faculty)
+//      } else {
+//         alert("Это к магглам")
+//      }
+
+// for(let i = 0; i <= 4; i ++) {
+//     console.log("Salam")
+    // ? console.log("Salam " + i) - возможный вариант
+// }
+
+// 1. Задание:
+
+for(let i = 0; i <= 99; i ++) {
+    console.log(i + 1)
+}
+
+// 2. Задание:
+
+// for(let i = 0; i <= 99; i ++) {
+//     if(i <= 49) {
+//     console.log("Salam " + i)
+//     }
+//  else {
+//     if(i >= 50)
+//     console.log("Aleikum " + i)
+// } }
+
+// 3. Задание:
+
+// let quantity = []
+// for(let i = 0; i <= 99; i ++) {
+//     quantity.push(i + 1)
+// } 
+// console.log(quantity)
