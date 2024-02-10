@@ -150,7 +150,7 @@
 
 for(let i = 0; i <= 4; i ++) {
     console.log("Salam")
-    ? console.log("Salam " + i) - возможный вариант
+    // ? console.log("Salam " + i) - возможный вариант
 }
 
 // 1. Задание:
