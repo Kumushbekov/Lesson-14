@@ -180,25 +180,25 @@
 
 // 4. Задание:
 
-let quantity = []
-for(let i = 0; i <= 99; i ++) {
-    if(i <= 49) {
-    quantity.push("Salam " + (i + 1))
-    } else {
-    if(i >= 50)
-    quantity.push("Aleikum " + (i + 1)) 
- } 
-} 
-console.log(quantity)
+// let quantity = []
+// for(let i = 0; i <= 99; i ++) {
+//     if(i <= 49) {
+//     quantity.push("Salam " + (i + 1))
+//     } else {
+//     if(i >= 50)
+//     quantity.push("Aleikum " + (i + 1)) 
+//  } 
+// } 
+// console.log(quantity)
 
 // 5. Задание:
 
-// let faculty = []
-// for(let i = 0; i <= 4; i ++) {
-//     let result = prompt("Напишите название факультета:")
-//     faculty.push(result + (i + 1))
-// }
-// console.log(faculty)
+let faculty = []
+for(let i = 0; i <= 4; i ++) {
+    let result = prompt("Напишите название факультета:")
+    faculty.push(result + (i + 1))
+}
+console.log(faculty)
 
 // 6. Задание:
 
