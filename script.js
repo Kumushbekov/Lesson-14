@@ -205,16 +205,16 @@
 let quantity = []
 for (let i = 0; i <= 99; i++) {
     quantity.push(i + 1001)
-// }
-// console.log(quantity)
-// let result = confirm("Да - удалить с начала, нет - удалить с конца")
-// if (result === true) {
-//     for (let i = 0; i < 50; i++) {
-//         quantity.shift()
-//     }
-// } else {
-//     for (let i = 0; i < 50; i++) {
-//         quantity.pop()
-//     }
-// }
-// console.log(quantity)
+}
+console.log(quantity)
+let result = confirm("Да - удалить с начала, нет - удалить с конца")
+if (result === true) {
+    for (let i = 0; i < 50; i++) {
+        quantity.shift()
+    }
+} else {
+    for (let i = 0; i < 50; i++) {
+        quantity.pop()
+    }
+}
+console.log(quantity)
