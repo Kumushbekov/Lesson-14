@@ -161,14 +161,14 @@
 
 // 2. Задание:
 
-for(let i = 0; i <= 99; i ++) {
-    if(i <= 49) {
-    console.log("Salam " + i)
-    }
- else {
-    if(i >= 50)
-    console.log("Aleikum " + i)
-} }
+// for(let i = 0; i <= 99; i ++) {
+//     if(i <= 49) {
+//     console.log("Salam " + i)
+//     }
+//  else {
+//     if(i >= 50)
+//     console.log("Aleikum " + i)
+// } }
 
 // 3. Задание:
 
@@ -176,4 +176,45 @@ for(let i = 0; i <= 99; i ++) {
 // for(let i = 0; i <= 99; i ++) {
 //     quantity.push(i + 1)
 // } 
+// console.log(quantity)
+
+// 4. Задание:
+
+let quantity = []
+for(let i = 0; i <= 99; i ++) {
+    if(i <= 49) {
+    quantity.push("Salam " + (i + 1))
+    } else {
+    if(i >= 50)
+    quantity.push("Aleikum " + (i + 1)) 
+ } 
+} 
+console.log(quantity)
+
+// 5. Задание:
+
+// let faculty = []
+// for(let i = 0; i <= 4; i ++) {
+//     let result = prompt("Напишите название факультета:")
+//     faculty.push(result + (i + 1))
+// }
+// console.log(faculty)
+
+// 6. Задание:
+
+// let quantity = []
+// for (let i = 0; i <= 99; i++) {
+//     quantity.push(i + 1001)
+// }
+// console.log(quantity)
+// let result = confirm("Да - удалить с начала, нет - удалить с конца")
+// if (result === true) {
+//     for (let i = 0; i < 50; i++) {
+//         quantity.shift()
+//     }
+// } else {
+//     for (let i = 0; i < 50; i++) {
+//         quantity.pop()
+//     }
+// }
 // console.log(quantity)
