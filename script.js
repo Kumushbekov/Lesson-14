@@ -193,18 +193,18 @@
 
 // 5. Задание:
 
-let faculty = []
-for(let i = 0; i <= 4; i ++) {
-    let result = prompt("Напишите название факультета:")
-    faculty.push(result + (i + 1))
-}
-console.log(faculty)
+// let faculty = []
+// for(let i = 0; i <= 4; i ++) {
+//     let result = prompt("Напишите название факультета:")
+//     faculty.push(result + (i + 1))
+// }
+// console.log(faculty)
 
 // 6. Задание:
 
-// let quantity = []
-// for (let i = 0; i <= 99; i++) {
-//     quantity.push(i + 1001)
+let quantity = []
+for (let i = 0; i <= 99; i++) {
+    quantity.push(i + 1001)
 // }
 // console.log(quantity)
 // let result = confirm("Да - удалить с начала, нет - удалить с конца")
