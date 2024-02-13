@@ -220,13 +220,13 @@
 // console.log(quantity)
 
 
-// let marks = []
-// for (let i = 0; i < 10; i++) {
-//     let random = Math.random() * 10
-//     let mark = Math.floor(random)
-//     marks.push(mark)
-// }
-// console.log(marks)
+let marks = []
+for (let i = 0; i < 10; i++) {
+    let random = Math.random() * 10
+    let mark = Math.floor(random)
+    marks.push(mark)
+}
+console.log(marks)
 
 let summ = 0
 for (let i = 0; i < marks.length; i++) {
