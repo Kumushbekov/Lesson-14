@@ -237,20 +237,28 @@
 // let result = summ / marks.length
 // console.log(result)
 
-let marks = []
-for (let i = 0; i < 10; i++) {
-    let random = Math.random() * 10
-    let mark = Math.floor(random)
-    marks.push(mark)
-}
-console.log(marks)
+// let marks = []
+// for (let i = 0; i < 10; i++) {
+//     let random = Math.random() * 10
+//     let mark = Math.floor(random)
+//     marks.push(mark)
+// }
+// console.log(marks)
 
-let summ = 0
-function addNumberToSumm (item, index) {
-    summ = summ + item
-}
-marks.forEach(addNumberToSumm)
-console.log(summ)
-let result = summ / marks.length
-console.log(result)
+// let summ = 0
+// function addNumberToSumm (item, index) {
+//     summ = summ + item
+// }
+// marks.forEach(addNumberToSumm)
+// console.log(summ)
+// let result = summ / marks.length
+// console.log(result)
 
+let task = {}
+let exercise = prompt("Напишите название задачи:")
+let deadline = prompt("Напишите дедлайн:")
+
+task.title = exercise
+task.deadline = deadline
+
+console.log(task)
