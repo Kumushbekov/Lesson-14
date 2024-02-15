@@ -245,12 +245,12 @@ for (let i = 0; i < 10; i++) {
 }
 console.log(marks)
 
-// let summ = 0
-// function addNumberToSumm (item, index) {
-//     summ = summ + item
-// }
-// marks.forEach(addNumberToSumm)
-// console.log(summ)
-// let result = summ / marks.length
-// console.log(result)
+let summ = 0
+function addNumberToSumm (item, index) {
+    summ = summ + item
+}
+marks.forEach(addNumberToSumm)
+console.log(summ)
+let result = summ / marks.length
+console.log(result)
 
