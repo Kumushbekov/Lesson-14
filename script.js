@@ -254,11 +254,18 @@
 // let result = summ / marks.length
 // console.log(result)
 
-let task = {}
-let exercise = prompt("Напишите название задачи:")
-let deadline = prompt("Напишите дедлайн:")
+// let task = {}
+// let exercise = prompt("Напишите название задачи:")
+// let deadline = prompt("Напишите дедлайн:")
 
-task.title = exercise
-task.deadline = deadline
+// task.title = exercise
+// task.deadline = deadline
 
-console.log(task)
+// console.log(task)
+
+let password = prompt("Введите пароль:") 
+if (password == 12345678) {
+    alert("Пароль верный")
+} else {
+    alert("Неправильный пароль")
+}
