@@ -263,9 +263,15 @@
 
 // console.log(task)
 
-let password = prompt("Введите пароль:") 
-if (password == 12345678) {
-    alert("Пароль верный")
-} else {
-    alert("Неправильный пароль")
-}
+// let password = prompt("Введите пароль:") 
+// if (password == 12345678) {
+//     alert("Пароль верный")
+// } else {
+//     alert("Неправильный пароль")
+// }
+
+let a1 = Number(a)
+let b1 = Number (b)
+calculateTriangleArea(a1, b1, c1)
+
+calculateTriangleArea(Number(a), Number(b), Number(c))
