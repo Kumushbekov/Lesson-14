@@ -276,10 +276,18 @@
 
 // calculateTriangleArea(Number(a), Number(b), Number(c))
 
-let password = prompt("Введите пароль:")
-let password2 = Number(password)
+// let password = prompt("Введите пароль:")
+// let password2 = Number(password)
 
-if (password2 === 12345678) {
+// if (password2 === 12345678) {
+//     alert("Пароль верный")
+// } else {
+//     alert("Неправильный пароль")
+// }
+
+
+let passwort = prompt("Введите пароль:") 
+if (passwort === "qwerty123") {
     alert("Пароль верный")
 } else {
     alert("Неправильный пароль")
