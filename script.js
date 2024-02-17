@@ -286,9 +286,22 @@
 // }
 
 
-let passwort = prompt("Введите пароль:") 
-if (passwort === "qwerty123") {
-    alert("Пароль верный")
+// let passwort = prompt("Введите пароль:") 
+// if (passwort === "qwerty123") {
+//     alert("Пароль верный")
+// } else {
+//     alert("Неправильный пароль")
+// }
+
+
+let head = confirm("У Вас болит голова?")
+let temperature = prompt("Какая у Вас температура?")
+let halls = confirm("Болит ли горло")
+let number = Number(temperature)
+if (head && number >= 38 && halls) {
+    alert("У Вас - грипп")
+} else if (head === false && number >= 38 && halls) {
+    alert("У Вас - ангина")
 } else {
-    alert("Неправильный пароль")
+    alert("Тогда непонятно че-то!")
 }
