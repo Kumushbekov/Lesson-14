@@ -305,3 +305,13 @@ if (head && number >= 38 && halls) {
 } else {
     alert("Тогда непонятно че-то!")
 }
+
+
+let password = prompt("Введите пароль:")
+let password2 = Number(password)
+
+if (password2 === 12345678) {
+    alert("Пароль верный")
+} else {
+    alert("Неправильный пароль")
+}
