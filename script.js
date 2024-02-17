@@ -294,17 +294,17 @@
 // }
 
 
-let head = confirm("У Вас болит голова?")
-let temperature = prompt("Какая у Вас температура?")
-let halls = confirm("Болит ли горло")
-let number = Number(temperature)
-if (head && number >= 38 && halls) {
-    alert("У Вас - грипп")
-} else if (head === false && number >= 38 && halls) {
-    alert("У Вас - ангина")
-} else {
-    alert("Тогда непонятно че-то!")
-}
+// let head = confirm("У Вас болит голова?")
+// let temperature = prompt("Какая у Вас температура?")
+// let halls = confirm("Болит ли горло")
+// let number = Number(temperature)
+// if (head && number >= 38 && halls) {
+//     alert("У Вас - грипп")
+// } else if (head === false && number >= 38 && halls) {
+//     alert("У Вас - ангина")
+// } else {
+//     alert("Тогда непонятно че-то!")
+// }
 
 
 let password = prompt("Введите пароль:")
