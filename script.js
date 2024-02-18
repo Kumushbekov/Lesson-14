@@ -331,10 +331,19 @@
 // } else {
 // }
 
-let weekend = prompt("Введите день недели:")
-let day = weekend.toLowerCase()
-if ( day === "суббота" || day === "воскресенье" ) {
-    alert("Выходной!")
-} else {
-    alert("Будний день!")
+// let weekend = prompt("Введите день недели:")
+// let day = weekend.toLowerCase()
+// if ( day === "суббота" || day === "воскресенье" ) {
+//     alert("Выходной!")
+// } else {
+//     alert("Будний день!")
+// }
+
+let text = prompt("Введите текст:")
+let word = "срочно"
+
+if (text.includes(word)) {
+    console.log("В тексте присутсвует ключевое слово: 'срочно' ")
+}   else {
+    console.log("В тексте не присутсвует ключевое слово")
 }
