@@ -325,9 +325,8 @@
 // }
 
 let student = confirm("Являетесь ли Вы студентом?")
-let worker = confirm("Являетесь ли Вы работником?")
-if (student === true || worker === true) {
+let employer = confirm("Являетесь ли Вы работником?")
+if (student === true || employer === true) {
     alert("ОК!")
 } else {
-    alert("Не подходите...")
 }
