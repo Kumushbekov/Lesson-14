@@ -317,10 +317,17 @@
 // }
 
 
-let age = prompt("Введите свой возраст:")
-if ( age >= 18 && age <= 35) {
-    alert("Проходите!")
-} else {
-    alert("Увы, не подходите...")
-}
+// let age = prompt("Введите свой возраст:")
+// if ( age >= 18 && age <= 35) {
+//     alert("Проходите!")
+// } else {
+//     alert("Увы, не подходите...")
+// }
 
+let student = confirm("Являетесь ли Вы студентом?")
+let worker = confirm("Являетесь ли Вы работником?")
+if (student === true || worker === true) {
+    alert("ОК!")
+} else {
+    alert("Не подходите...")
+}
