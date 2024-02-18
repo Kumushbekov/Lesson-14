@@ -324,9 +324,17 @@
 //     alert("Увы, не подходите...")
 // }
 
-let student = confirm("Являетесь ли Вы студентом?")
-let employer = confirm("Являетесь ли Вы работником?")
-if (student === true || employer === true) {
-    alert("ОК!")
+// let student = confirm("Являетесь ли Вы студентом?")
+// let employer = confirm("Являетесь ли Вы работником?")
+// if (student === true || employer === true) {
+//     alert("ОК!")
+// } else {
+// }
+
+let weekend = prompt("Введите день недели:")
+let day = weekend.toLowerCase()
+if ( day === "суббота" || day === "воскресенье" ) {
+    alert("Выходной!")
 } else {
+    alert("Будний день!")
 }
