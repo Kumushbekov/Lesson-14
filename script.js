@@ -307,11 +307,13 @@
 // }
 
 
-let password = prompt("Введите пароль:")
-let password2 = Number(password)
+// let password = prompt("Введите пароль:")
+// let password2 = Number(password)
 
-if (password2 === 12345678) {
-    alert("Пароль верный")
-} else {
-    alert("Неправильный пароль")
-}
+// if (password2 === 12345678) {
+//     alert("Пароль верный")
+// } else {
+//     alert("Неправильный пароль")
+// }
+
+
