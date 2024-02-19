@@ -339,12 +339,21 @@
 //     alert("Будний день!")
 // }
 
-let text = prompt("Введите текст:")
-let word = "срочно"
-let urgent = word.toLowerCase()
+// let text = prompt("Введите текст:")
+// let word = "срочно"
+// let urgent = word.toLowerCase()
 
-if (text.includes(urgent)) {
-    console.log("В тексте присутсвует ключевое слово: 'срочно' ")
-}   else {
-    console.log("В тексте не присутсвует ключевое слово")
-}
+// if (text.includes(urgent)) {
+//     console.log("В тексте присутсвует ключевое слово: 'срочно' ")
+// }   else {
+//     console.log("В тексте не присутсвует ключевое слово")
+// }
+
+let ingredientsForShakarap = ["Помидоры", "Лук", "Соль", "Красный перец"]
+let ingredient = prompt("Выберите ингредиент")
+if (ingredientsForShakarap.indexOf(ingredient) !== -1) {
+alert(ingredientsForShakarap.indexOf(ingredient))
+alert(ingredientsForShakarap[ingredientsForShakarap.indexOf(ingredient)])    
+} else {
+    alert("Жок андай! Анткени неправильный щакарап!")
+} 
