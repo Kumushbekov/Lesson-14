@@ -358,10 +358,18 @@
 //     alert("Жок андай! Анткени неправильный щакарап!")
 // } 
 
-let weekend = prompt("Введите день недели:")
-let day = weekend.toLowerCase()
-if ( day === "суббота" || day === "воскресенье" ) {
-    alert("Выходной!")
-} else {
-    alert("Будний день!")
+// let weekend = prompt("Введите день недели:")
+// let day = weekend.toLowerCase()
+// if ( day === "суббота" || day === "воскресенье" ) {
+//     alert("Выходной!")
+// } else {
+//     alert("Будний день!")
+// }
+
+let vowels = 'aeiouy'
+for(let i = 0; i < vowels.length; i++) {
+    if (i !== 0 && i !== vowels.length-1) {
+      console.log(vowels[i])  
+    }
 }
+
