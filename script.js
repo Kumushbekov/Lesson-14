@@ -349,11 +349,19 @@
 //     console.log("В тексте не присутсвует ключевое слово")
 // }
 
-let ingredientsForShakarap = ["Помидоры", "Лук", "Соль", "Красный перец"]
-let ingredient = prompt("Выберите ингредиент")
-if (ingredientsForShakarap.indexOf(ingredient) !== -1) {
-alert(ingredientsForShakarap.indexOf(ingredient))
-alert(ingredientsForShakarap[ingredientsForShakarap.indexOf(ingredient)])    
+// let ingredientsForShakarap = ["Помидоры", "Лук", "Соль", "Красный перец"]
+// let ingredient = prompt("Выберите ингредиент")
+// if (ingredientsForShakarap.indexOf(ingredient) !== -1) {
+// alert(ingredientsForShakarap.indexOf(ingredient))
+// alert(ingredientsForShakarap[ingredientsForShakarap.indexOf(ingredient)])    
+// } else {
+//     alert("Жок андай! Анткени неправильный щакарап!")
+// } 
+
+let weekend = prompt("Введите день недели:")
+let day = weekend.toLowerCase()
+if ( day === "суббота" || day === "воскресенье" ) {
+    alert("Выходной!")
 } else {
-    alert("Жок андай! Анткени неправильный щакарап!")
-} 
+    alert("Будний день!")
+}
