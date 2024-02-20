@@ -397,8 +397,8 @@ let average = sum / marks.length
 console.log("Средняя оценка:", average)
 console.log("Студенты с оценкой выше средней:")
 
-// for (let i = 0; i < marks.length; i++) {
-//     if (marks[i] > average) {
-//         console.log("Студент", i + 1, ":", marks[i])
-//     }
-// }
+for (let i = 0; i < marks.length; i++) {
+    if (marks[i] > average) {
+        console.log("Студент", i + 1, ":", marks[i])
+    }
+}
