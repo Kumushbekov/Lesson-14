@@ -366,10 +366,19 @@
 //     alert("Будний день!")
 // }
 
-let vowels = 'aeiouy'
-for(let i = 0; i < vowels.length; i++) {
-    if (i !== 0 && i !== vowels.length-1) {
-      console.log(vowels[i])  
-    }
-}
+// let vowels = 'aeiouy'
+// for(let i = 0; i < vowels.length; i++) {
+//     if (i !== 0 && i !== vowels.length-1) {
+//       console.log(vowels[i])  
+//     }
+// }
 
+
+let summ = 0
+for (let i = 0; i < marks.length; i++) {
+    summ = summ + marks[i]
+}
+console.log(summ)
+
+let result = summ / marks.length
+console.log(result)
