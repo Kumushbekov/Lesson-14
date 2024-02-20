@@ -392,10 +392,10 @@ for (let i = 0; i < 10; i++) {
 }
 console.log("Оценки студентов:", marks)
 
-// let sum = marks.reduce((acc, mark) => acc + mark, 0)
-// let average = sum / marks.length
-// console.log("Средняя оценка:", average)
-// console.log("Студенты с оценкой выше средней:")
+let sum = marks.reduce((acc, mark) => acc + mark, 0)
+let average = sum / marks.length
+console.log("Средняя оценка:", average)
+console.log("Студенты с оценкой выше средней:")
 
 // for (let i = 0; i < marks.length; i++) {
 //     if (marks[i] > average) {
