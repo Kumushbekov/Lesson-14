@@ -416,5 +416,5 @@ function capitalize(word) {
     console.log(firstUpperLetter + restOfWord)
 }
 
-// let word2 = prompt("Введите слово:")
-// capitalize(word2)
+let word2 = prompt("Введите слово:")
+capitalize(word2)
