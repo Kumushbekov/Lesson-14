@@ -384,21 +384,28 @@
 // console.log(result)
 
 
-let marks = []
-for (let i = 0; i < 10; i++) {
-    let random = Math.random() * 10
-    let mark = Math.floor(random)
-    marks.push(mark);
-}
-console.log("Оценки студентов:", marks)
+// let marks = []
+// for (let i = 0; i < 10; i++) {
+//     let random = Math.random() * 10
+//     let mark = Math.floor(random)
+//     marks.push(mark);
+// }
+// console.log("Оценки студентов:", marks)
+// console.log(marks)
 
-let sum = marks.reduce((acc, mark) => acc + mark, 0)
-let average = sum / marks.length
-console.log("Средняя оценка:", average)
-console.log("Студенты с оценкой выше средней:")
+// let sum = marks.reduce((acc, mark) => acc + mark, 0)
+// let average = sum / marks.length
+// console.log("Средняя оценка:")
+// console.log(average)
+// console.log("Студенты с оценкой выше средней:")
 
-for (let i = 0; i < marks.length; i++) {
-    if (marks[i] > average) {
-        console.log("Студент", i + 1, ":", marks[i])
-    }
+// for (let i = 0; i < marks.length; i++) {
+//     if (marks[i] > average) {
+//         console.log("Студент", i + 1, ":", marks[i])
+//     }
+// }
+
+function name(firstName, lastName) {
+    let fio = (firstName[0] + ". " + lastName)
+    console.log(fio)
 }
