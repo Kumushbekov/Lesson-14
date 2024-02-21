@@ -405,10 +405,10 @@
 //     }
 // }
 
-// function name(firstName, lastName) {
-//     let fio = (firstName[0] + ". " + lastName)
-//     console.log(fio)
-// }
+function name(firstName, lastName) {
+    let fio = (firstName[0] + ". " + lastName)
+    console.log(fio)
+}
 
 function capitalize(word) {
     let firstUpperLetter = word[0].toUpperCase()
