@@ -429,3 +429,11 @@ function doubleLetter(word) {
  doubleLetter(word)
 
  
+    function capitalize(word) {
+    let firstUpperLetter = word[0].toUpperCase()
+    let restOfWord = word.slice(1,word.length).toLowerCase()
+    console.log(firstUpperLetter + restOfWord)
+}
+
+let word2 = prompt("Введите слово:")
+capitalize(word2)
