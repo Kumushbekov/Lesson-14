@@ -439,14 +439,20 @@
 // capitalize(word2)
 
 
-let count = 60
+// let count = 60
 
-function counter() {
-    count -= 1
-    console.log(`Осталось: ${count} секунд`)
-}
+// function counter() {
+//     count -= 1
+//     console.log(`Осталось: ${count} секунд`)
+// }
 
-let id = setInterval(counter, 1000)
+// let id = setInterval(counter, 1000)
+
+// setTimeout(function() {
+//     clearInterval(id)
+// }, 10000)
+
+let id = setInterval(counter, 2000)
 
 setTimeout(function() {
     clearInterval(id)
