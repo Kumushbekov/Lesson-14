@@ -418,22 +418,36 @@
 // }
 
 // let word2 = prompt("Введите слово:")
-// capitalize(word2)
+// capitalize(word2) 
 
-function doubleLetter(word) {
-     let firstUpperLetter = word[0].toUpperCase()
-     let restOfWord = word.slice(1,word.length).toLowerCase()
-     let doubleLetter2 = word.return(length)
- }
- let word = prompt("Введите слово:")
- doubleLetter(word)
+// function doubleLetter(word) {
+//      let firstUpperLetter = word[0].toUpperCase()
+//      let restOfWord = word.slice(1,word.length).toLowerCase()
+//      let doubleLetter2 = word.return(length)
+//  }
+//  let word = prompt("Введите слово:")
+//  doubleLetter(word)
 
  
-    function capitalize(word) {
-    let firstUpperLetter = word[0].toUpperCase()
-    let restOfWord = word.slice(1,word.length).toLowerCase()
-    console.log(firstUpperLetter + restOfWord)
+//     function capitalize(word) {
+//     let firstUpperLetter = word[0].toUpperCase()
+//     let restOfWord = word.slice(1,word.length).toLowerCase()
+//     console.log(firstUpperLetter + restOfWord)
+// }
+
+// let word2 = prompt("Введите слово:")
+// capitalize(word2)
+
+
+let count = 60
+
+function counter() {
+    count -= 1
+    console.log(`Осталось: ${count} секунд`)
 }
 
-let word2 = prompt("Введите слово:")
-capitalize(word2)
+// let id = setInterval(counter, 1000)
+
+// setTimeout(function() {
+//     clearInterval(id)
+// }, 10000)
