@@ -462,10 +462,10 @@
 function startTimer() {
      const inputSeconds = prompt("Введите количество секунд:");
  
-//      if (isNaN(inputSeconds) || inputSeconds <= 0) {
-//          console.log("Некорректный ввод. Введите положительное число больше нуля.");
-//          return;
-//      }
+     if (isNaN(inputSeconds) || inputSeconds <= 0) {
+         console.log("Некорректный ввод. Введите положительное число больше нуля.");
+         return;
+     }
  
 //      let remainingSeconds = inputSeconds;
  
