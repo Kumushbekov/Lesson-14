@@ -452,8 +452,34 @@
 //     clearInterval(id)
 // }, 10000)
 
-let id = setInterval(counter, 2000)
+// let id = setInterval(counter, 2000)
 
-setTimeout(function() {
-    clearInterval(id)
-}, 10000)
+// setTimeout(function() {
+//     clearInterval(id)
+// }, 10000)
+
+
+function startTimer() {
+     const inputSeconds = prompt("Введите количество секунд:");
+ 
+//      if (isNaN(inputSeconds) || inputSeconds <= 0) {
+//          console.log("Некорректный ввод. Введите положительное число больше нуля.");
+//          return;
+//      }
+ 
+//      let remainingSeconds = inputSeconds;
+ 
+//      const intervalId = setInterval(function() {
+//          console.clear();
+//          console.log(`Осталось секунд: ${remainingSeconds}`);
+ 
+//          remainingSeconds--;
+ 
+//          if (remainingSeconds < 0) {
+//              clearInterval(intervalId);
+//              console.log("Таймер завершен!");
+//          }
+//      }, 1000);
+//  }
+ 
+//  startTimer();
