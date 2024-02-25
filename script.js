@@ -467,11 +467,11 @@ function startTimer() {
          return;
      }
  
-//      let remainingSeconds = inputSeconds;
+     let remainingSeconds = inputSeconds;
  
-//      const intervalId = setInterval(function() {
-//          console.clear();
-//          console.log(`Осталось секунд: ${remainingSeconds}`);
+     const intervalId = setInterval(function() {
+         console.clear();
+         console.log(`Осталось секунд: ${remainingSeconds}`);
  
 //          remainingSeconds--;
  
