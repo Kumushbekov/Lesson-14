@@ -473,13 +473,13 @@ function startTimer() {
          console.clear();
          console.log(`Осталось секунд: ${remainingSeconds}`);
  
-//          remainingSeconds--;
+         remainingSeconds--;
  
-//          if (remainingSeconds < 0) {
-//              clearInterval(intervalId);
-//              console.log("Таймер завершен!");
-//          }
-//      }, 1000);
-//  }
+         if (remainingSeconds < 0) {
+             clearInterval(intervalId);
+             console.log("Таймер завершен!");
+         }
+     }, 1000);
+ }
  
-//  startTimer();
+ startTimer();
