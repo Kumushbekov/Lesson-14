@@ -523,3 +523,11 @@ function removeNumbers(item) {
     }
 }
 removeNumbers("V7 Salam aleikum")
+
+
+for (let i = 0; i < marks.length; i++) {
+            if (marks[i] > average) {
+                console.log("Студент", i + 1, ":", marks[i])
+            }
+        }
+        
