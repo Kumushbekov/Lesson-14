@@ -119,7 +119,7 @@
 //  }
 
 //  let post = prompt("Напишите свою почту:")
-//  if (post.includes("@gmail.com")) {
+//  if (post.("@gmail.com")) {
 //     alert("Почта принята!")
 //  } else {
 //     alert("Почта невалидна!")
@@ -459,27 +459,67 @@
 // }, 10000)
 
 
-function startTimer() {
-     const inputSeconds = prompt("Введите количество секунд:");
+// function startTimer() {
+//      const inputSeconds = prompt("Введите количество секунд:");
  
-     if (isNaN(inputSeconds) || inputSeconds <= 0) {
-         console.log("Некорректный ввод. Введите положительное число больше нуля.");
-         return;
-     }
+//      if (isNaN(inputSeconds) || inputSeconds <= 0) {
+//          console.log("Некорректный ввод. Введите положительное число больше нуля.");
+//          return;
+//      }
  
-     let remainingSeconds = inputSeconds;
+//      let remainingSeconds = inputSeconds;
  
-     const intervalId = setInterval(function() {
-         console.clear();
-         console.log(`Осталось секунд: ${remainingSeconds}`);
+//      const intervalId = setInterval(function() {
+//          console.clear();
+//          console.log(`Осталось секунд: ${remainingSeconds}`);
  
-         remainingSeconds--;
+//          remainingSeconds--;
  
-         if (remainingSeconds < 0) {
-             clearInterval(intervalId);
-             console.log("Таймер завершен!");
-         }
-     }, 1000);
- }
+//          if (remainingSeconds < 0) {
+//              clearInterval(intervalId);
+//              console.log("Таймер завершен!");
+//          }
+//      }, 1000);
+//  }
  
- startTimer();
+//  startTimer();
+
+
+
+// function removeNumbers(item) {
+//     for (let i = 0; i < item.length; i++) {
+//         if ("0123456789".includes(item[i]) === false) {
+//         console.log(222,item[i])
+//         }
+//     }
+// }
+// removeNumbers("V7 Salam aleikum")
+
+
+
+// for (let i = 0; i < marks.length; i++) {
+        //     if (marks[i] > average) {
+        //         console.log("Студент", i + 1, ":", marks[i])
+        //     }
+        // }
+        
+
+        // let text = prompt("Введите текст:")
+// let word = "срочно"
+// let urgent = word.toLowerCase()
+
+// if (text.includes(urgent)) {
+//     console.log("В тексте присутсвует ключевое слово: 'срочно' ")
+// }   else {
+//     console.log("В тексте не присутсвует ключевое слово")
+// }
+
+
+function removeNumbers(item) {
+    for (let i = 0; i < item.length; i++) {
+        if ("0123456789".includes(item[i]) === false) {
+        console.log(222,item[i])
+        }
+    }
+}
+removeNumbers("V7 Salam aleikum")
