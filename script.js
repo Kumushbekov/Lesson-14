@@ -532,6 +532,14 @@
 //         }
         
 
-                let text = prompt("Введите текст:")
-let word = "срочно"
-let urgent = word.toLowerCase()
+//                 let text = prompt("Введите текст:")
+// let word = "срочно"
+// let urgent = word.toLowerCase()
+
+
+if (text.includes(urgent)) {
+    console.log("В тексте присутсвует ключевое слово: 'срочно' ")
+}   else {
+    console.log("В тексте не присутсвует ключевое слово")
+}
+
