@@ -515,19 +515,23 @@
 // }
 
 
-function removeNumbers(item) {
-    for (let i = 0; i < item.length; i++) {
-        if ("0123456789".includes(item[i]) === false) {
-        console.log(222,item[i])
-        }
-    }
-}
-removeNumbers("V7 Salam aleikum")
+// function removeNumbers(item) {
+//     for (let i = 0; i < item.length; i++) {
+//         if ("0123456789".includes(item[i]) === false) {
+//         console.log(222,item[i])
+//         }
+//     }
+// }
+// removeNumbers("V7 Salam aleikum")
 
 
-for (let i = 0; i < marks.length; i++) {
-            if (marks[i] > average) {
-                console.log("Студент", i + 1, ":", marks[i])
-            }
-        }
+// for (let i = 0; i < marks.length; i++) {
+//             if (marks[i] > average) {
+//                 console.log("Студент", i + 1, ":", marks[i])
+//             }
+//         }
         
+
+                let text = prompt("Введите текст:")
+let word = "срочно"
+let urgent = word.toLowerCase()
