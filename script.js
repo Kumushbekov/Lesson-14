@@ -537,9 +537,15 @@
 // let urgent = word.toLowerCase()
 
 
-if (text.includes(urgent)) {
-    console.log("В тексте присутсвует ключевое слово: 'срочно' ")
-}   else {
-    console.log("В тексте не присутсвует ключевое слово")
-}
+// if (text.includes(urgent)) {
+//     console.log("В тексте присутсвует ключевое слово: 'срочно' ")
+// }   else {
+//     console.log("В тексте не присутсвует ключевое слово")
+// }
 
+
+
+
+function умножитьНа2(массив) {
+     for (let i = 0; i < массив.length; i++)
+     }
