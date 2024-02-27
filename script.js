@@ -547,5 +547,9 @@
 
 
 function умножитьНа2(массив) {
-     for (let i = 0; i < массив.length; i++)
+     for (let i = 0; i < массив.length; i++) {
+          const удвоенное_число = массив[i] * 2;
+          console.log(удвоенное_число);
+      } 
+     
      }
