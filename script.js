@@ -579,3 +579,5 @@ let tasks = ["ЗАВТРАК", "ОбЕд", "ПолдниК", "Ранний Уж�
 function rejim(item) {
     console.log (" Правильно будет: " + item)
 }
+
+task.forEach(rejim)
