@@ -568,8 +568,10 @@
 //  умножитьНа2(числаМассива);
 
 
-function showTitleOfTask(item, index) {
+// function showTitleOfTask(item, index) {
 //     index - счетчик, который начинается с 0
 //     item - один элемент с массива по счетчику
-    console.log((index + 1) + "я задача - " + item)
-}
+//     console.log((index + 1) + "я задача - " + item)
+// }
+
+let tasks = ["ЗАВТРАК", "ОбЕд", "ПолдниК", "Ранний Ужин", "ПоздНий ужИн"]
