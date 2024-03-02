@@ -582,7 +582,16 @@
 
 // task.forEach(rejim)
 
-function multiple(a, b) {
+// function multiple(a, b) {
+//     let result = a * b
+//     console.log(result)
+//     return result
+// }
+
+// let x = multiple(5, 6)
+
+
+let multiple = (a, b) => {
     let result = a * b
     console.log(result)
     return result
