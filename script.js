@@ -574,10 +574,18 @@
 //     console.log((index + 1) + "я задача - " + item)
 // }
 
-let tasks = ["ЗАВТРАК", "ОбЕд", "ПолдниК", "Ранний Ужин", "ПоздНий ужИн"]
+// let tasks = ["ЗАВТРАК", "ОбЕд", "ПолдниК", "Ранний Ужин", "ПоздНий ужИн"]
 
-function rejim(item) {
-    console.log (" Правильно будет: " + item)
+// function rejim(item) {
+//     console.log (" Правильно будет: " + item)
+// }
+
+// task.forEach(rejim)
+
+function multiple(a, b) {
+    let result = a * b
+    console.log(result)
+    return result
 }
 
-task.forEach(rejim)
+let x = multiple(5, 6)
