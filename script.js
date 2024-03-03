@@ -606,3 +606,6 @@ function repeat(count, target) {
      }
      return result
  }
+
+ let povtor = repeat(5, "salam")
+console.log(povtor)
