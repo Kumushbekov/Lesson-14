@@ -625,3 +625,6 @@ function normalize(inputString) {
     }
         return result;
 }
+
+const normalizedString = normalize('6еш6армак на 3автрак');
+console.log(normalizedString); // Вывод: 'бешбармак на завтрак'
