@@ -591,10 +591,18 @@
 // let x = multiple(5, 6)
 
 
-let multiple = (a, b) => {
-    let result = a * b
-    console.log(result)
-    return result
-}
+// let multiple = (a, b) => {
+//     let result = a * b
+//     console.log(result)
+//     return result
+// }
 
-let x = multiple(5, 6)
+// let x = multiple(5, 6)
+
+function repeat(count, target) {
+     let result = " "
+     for (let i = 0; i < count; i++) {
+         result += target
+     }
+     return result
+ }
