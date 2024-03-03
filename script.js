@@ -623,3 +623,5 @@ function normalize(inputString) {
         const replacement = replacements[currentChar];
         result += replacement !== undefined ? replacement : currentChar;
     }
+        return result;
+}
