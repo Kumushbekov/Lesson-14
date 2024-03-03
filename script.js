@@ -616,3 +616,10 @@ function normalize(inputString) {
          '6': 'б',
          '3': 'з'
      }; 
+     
+    let result = '';
+    for (let i = 0; i < inputString.length; i++) {
+        const currentChar = inputString[i];
+        const replacement = replacements[currentChar];
+        result += replacement !== undefined ? replacement : currentChar;
+    }
