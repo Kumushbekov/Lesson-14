@@ -599,13 +599,20 @@
 
 // let x = multiple(5, 6)
 
-function repeat(count, target) {
-     let result = " "
-     for (let i = 0; i < count; i++) {
-         result += target
-     }
-     return result
- }
+// function repeat(count, target) {
+//      let result = " "
+//      for (let i = 0; i < count; i++) {
+//          result += target
+//      }
+//      return result
+//  }
 
- let povtor = repeat(5, "salam")
-console.log(povtor)
+//  let povtor = repeat(5, "salam")
+// console.log(povtor)
+
+function normalize(inputString) {
+     const replacements = {
+         '0': 'о',
+         '6': 'б',
+         '3': 'з'
+     }; 
