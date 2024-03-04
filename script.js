@@ -647,3 +647,7 @@ function normalize(stroka) {
        return result
    }
         
+   
+let inputString = "6еш6армак на 3автрак"
+let normalizedString = normalize(inputString)
+console.log(normalizedString)
