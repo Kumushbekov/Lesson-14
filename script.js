@@ -640,3 +640,10 @@ function normalize(stroka) {
                result += "з"
            } else if (bukva === "0") {
                result += "о"
+          } else {
+               result += bukva
+           }
+       }
+       return result
+   }
+        
