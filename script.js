@@ -636,3 +636,7 @@ function normalize(stroka) {
          let bukva = stroka[i]
          if (bukva === "6") {
              result += "б"
+          } else if (bukva === "3") {
+               result += "з"
+           } else if (bukva === "0") {
+               result += "о"
