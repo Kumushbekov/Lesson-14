@@ -610,21 +610,29 @@
 //  let povtor = repeat(5, "salam")
 // console.log(povtor)
 
-function normalize(inputString) {
-     const replacements = {
-         '0': 'о',
-         '6': 'б',
-         '3': 'з'
-     }; 
+// function normalize(inputString) {
+//      const replacements = {
+//          '0': 'о',
+//          '6': 'б',
+//          '3': 'з'
+//      }; 
      
-    let result = '';
-    for (let i = 0; i < inputString.length; i++) {
-        const currentChar = inputString[i];
-        const replacement = replacements[currentChar];
-        result += replacement !== undefined ? replacement : currentChar;
-    }
-        return result;
-}
+//     let result = '';
+//     for (let i = 0; i < inputString.length; i++) {
+//         const currentChar = inputString[i];
+//         const replacement = replacements[currentChar];
+//         result += replacement !== undefined ? replacement : currentChar;
+//     }
+//         return result;
+// }
 
-const normalizedString = normalize('6еш6армак на 3автрак');
-console.log(normalizedString); // Вывод: 'бешбармак на завтрак'
+// const normalizedString = normalize('6еш6армак на 3автрак');
+// console.log(normalizedString); // Вывод: 'бешбармак на завтрак'
+
+
+function normalize(stroka) {
+     let result = " "
+     for (let i = 0; i < stroka.length; i++) {
+         let bukva = stroka[i]
+         if (bukva === "6") {
+             result += "б"
