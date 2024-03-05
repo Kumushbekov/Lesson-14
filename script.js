@@ -654,3 +654,7 @@
 
 
 let arr = [1,2,3,4,5]
+
+let modifiedArr = arr.map((item) => {
+    return item + 1
+})
