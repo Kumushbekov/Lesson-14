@@ -653,13 +653,13 @@
 // console.log(normalizedString)
 
 
-let arr = [1,2,3,4,5]
+// let arr = [1,2,3,4,5]
 
-let modifiedArr = arr.map((item) => {
-    return item + 1
-})
+// let modifiedArr = arr.map((item) => {
+//     return item + 1
+// })
 
-console.log(modifiedArr) // [2,3,4,5,6]
+// console.log(modifiedArr) // [2,3,4,5,6]
 
 
 let users = [
@@ -675,3 +675,10 @@ let users = [
     {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
   ];
 
+  let obj = {
+    firstName: "Ivan", 
+    lastName: "Ivanov", 
+    email: "ivanov@example.com", 
+    age: 25, 
+    gender: "male",
+}
