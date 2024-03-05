@@ -630,24 +630,27 @@
 // console.log(normalizedString); // Вывод: 'бешбармак на завтрак'
 
 
-function normalize(stroka) {
-     let result = " "
-     for (let i = 0; i < stroka.length; i++) {
-         let bukva = stroka[i]
-         if (bukva === "6") {
-             result += "б"
-          } else if (bukva === "3") {
-               result += "з"
-           } else if (bukva === "0") {
-               result += "о"
-          } else {
-               result += bukva
-           }
-       }
-       return result
-   }
+// function normalize(stroka) {
+//      let result = " "
+//      for (let i = 0; i < stroka.length; i++) {
+//          let bukva = stroka[i]
+//          if (bukva === "6") {
+//              result += "б"
+//           } else if (bukva === "3") {
+//                result += "з"
+//            } else if (bukva === "0") {
+//                result += "о"
+//           } else {
+//                result += bukva
+//            }
+//        }
+//        return result
+//    }
         
    
-let inputString = "6еш6армак на 3автрак"
-let normalizedString = normalize(inputString)
-console.log(normalizedString)
+// let inputString = "6еш6армак на 3автрак"
+// let normalizedString = normalize(inputString)
+// console.log(normalizedString)
+
+
+let arr = [1,2,3,4,5]
