@@ -662,23 +662,31 @@
 // console.log(modifiedArr) // [2,3,4,5,6]
 
 
-let users = [
-    {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
-    {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
-    {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
-    {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
-    {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
-    {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
-    {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
-    {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
-    {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
-    {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
-  ];
+// let users = [
+//     {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
+//     {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
+//     {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
+//     {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
+//     {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
+//     {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
+//     {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
+//     {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
+//     {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
+//     {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
+//   ];
 
-  let obj = {
-    firstName: "Ivan", 
-    lastName: "Ivanov", 
-    email: "ivanov@example.com", 
-    age: 25, 
-    gender: "male",
-}
+//   let obj = {
+//     firstName: "Ivan", 
+//     lastName: "Ivanov", 
+//     email: "ivanov@example.com", 
+//     age: 25, 
+//     gender: "male",
+// }
+
+copyNumbers.sort((a, b) => {
+    if(b < a) {
+        return -1
+    } else {
+        return 1
+    }
+})
