@@ -695,3 +695,6 @@ console.log(1, numbers)
 console.log(2, copyNumbers)
 
 copyObj.age = 30
+
+console.log(obj)
+console.log(copyObj)
