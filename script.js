@@ -690,3 +690,6 @@ copyNumbers.sort((a, b) => {
         return 1
     }
 })
+
+console.log(1, numbers)
+console.log(2, copyNumbers)
