@@ -720,3 +720,8 @@ let users = [
     age: 25, 
     gender: "male"
   }
+
+  
+  let firstName1 = obj.firstName
+  let lastName1 = obj.lastName
+  let age1 = obj.age
