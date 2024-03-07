@@ -725,3 +725,10 @@ let users = [
   let firstName1 = obj.firstName
   let lastName1 = obj.lastName
   let age1 = obj.age
+
+
+  let { firstName, lastName, age } = obj
+
+console.log(1, firstName, lastName, age)
+console.log(2, firstName1, lastName1, age1)
+console.log(3, obj)
