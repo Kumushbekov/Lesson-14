@@ -712,3 +712,11 @@ let users = [
     {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
     {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
   ];
+
+  let obj = {
+    firstName: "Ivan", 
+    lastName: "Ivanov", 
+    email: "ivanov@example.com", 
+    age: 25, 
+    gender: "male"
+  }
