@@ -700,35 +700,50 @@
 // console.log(copyObj)
 
 
-let users = [
-    {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
-    {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
-    {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
-    {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
-    {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
-    {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
-    {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
-    {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
-    {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
-    {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
-  ];
+// let users = [
+//     {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
+//     {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
+//     {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
+//     {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
+//     {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
+//     {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
+//     {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
+//     {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
+//     {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
+//     {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
+//   ];
 
-  let obj = {
-    firstName: "Ivan", 
-    lastName: "Ivanov", 
-    email: "ivanov@example.com", 
-    age: 25, 
-    gender: "male"
-  }
+//   let obj = {
+//     firstName: "Ivan", 
+//     lastName: "Ivanov", 
+//     email: "ivanov@example.com", 
+//     age: 25, 
+//     gender: "male"
+//   }
 
   
-  let firstName1 = obj.firstName
-  let lastName1 = obj.lastName
-  let age1 = obj.age
+//   let firstName1 = obj.firstName
+//   let lastName1 = obj.lastName
+//   let age1 = obj.age
 
 
-  let { firstName, lastName, age } = obj
+//   let { firstName, lastName, age } = obj
 
-console.log(1, firstName, lastName, age)
-console.log(2, firstName1, lastName1, age1)
-console.log(3, obj)
+// console.log(1, firstName, lastName, age)
+// console.log(2, firstName1, lastName1, age1)
+// console.log(3, obj)
+
+
+
+let users = [
+     {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
+     {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
+     {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
+     {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
+     {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
+     {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
+     {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
+     {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
+     {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
+     {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
+   ];
