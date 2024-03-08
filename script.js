@@ -747,3 +747,10 @@ let users = [
      {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
      {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
    ];
+
+   
+let names = users.map((item) => {
+     let { firstName, lastName } = item
+     let destrucurizatedName = firstName[0] + ". " + lastName
+     return destrucurizatedName
+ })
