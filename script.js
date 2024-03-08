@@ -754,3 +754,5 @@ let names = users.map((item) => {
      let destrucurizatedName = firstName[0] + ". " + lastName
      return destrucurizatedName
  })
+
+ console.log(names)
