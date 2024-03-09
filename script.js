@@ -759,8 +759,24 @@
 
 
 
-let modifiedUsers = users.map((item) => {
-     let obj = { ...item, fullName: item.firstName + ' ' + item.lastName }
-     return obj
- })
- console.log(modifiedUsers)
+// let modifiedUsers = users.map((item) => {
+//      let obj = { ...item, fullName: item.firstName + ' ' + item.lastName }
+//      return obj
+//  })
+//  console.log(modifiedUsers)
+
+
+
+let students = [
+     ['Анна', 85],
+     ['Иван', 92],
+     ['Мария', 78],
+     ['Алексей', 89],
+     ['Екатерина', 95],
+     ['Дмитрий', 77],
+     ['Ольга', 88],
+     ['Петр', 90],
+     ['Светлана', 84],
+     ['Артем', 91]
+   ];
+ 
