@@ -787,3 +787,4 @@ let students = [
      return list
    })
  
+   console.log(modifiedStudents)
