@@ -780,3 +780,10 @@ let students = [
      ['Артем', 91]
    ];
  
+   
+  let modifiedStudents = students.map((item) => {
+     let [studentName, score] = item
+     let list = studentName + " получил(а) оценку " + score + "/100"
+     return list
+   })
+ 
