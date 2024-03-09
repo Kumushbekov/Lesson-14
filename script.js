@@ -735,24 +735,28 @@
 
 
 
-let users = [
-     {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
-     {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
-     {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
-     {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
-     {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
-     {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
-     {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
-     {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
-     {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
-     {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
-   ];
+// let users = [
+//      {firstName: "Ivan", lastName: "Ivanov", email: "ivanov@example.com", age: 25, gender: "male"},
+//      {firstName: "Ekaterina", lastName: "Petrova", email: "petrova@example.com", age: 30, gender: "female"},
+//      {firstName: "Alexey", lastName: "Sidorov", email: "sidorov@example.com", age: 28, gender: "male"},
+//      {firstName: "Maria", lastName: "Kozlova", email: "kozlova@example.com", age: 22, gender: "female"},
+//      {firstName: "Dmitry", lastName: "Smirnov", email: "smirnov@example.com", age: 26, gender: "male"},
+//      {firstName: "Olga", lastName: "Alexandrova", email: "ivanova@example.com", age: 32, gender: "female"},
+//      {firstName: "Maxim", lastName: "Kuznetsov", email: "kuznetsov@example.com", age: 35, gender: "male"},
+//      {firstName: "Anna", lastName: "Morozova", email: "morozova@example.com", age: 29, gender: "female"},
+//      {firstName: "Vladimir", lastName: "Novikov", email: "novikov@example.com", age: 27, gender: "male"},
+//      {firstName: "Yulia", lastName: "Borisova", email: "borisova@example.com", age: 31, gender: "female"}
+//    ];
 
    
-let names = users.map((item) => {
-     let { firstName, lastName } = item
-     let destrucurizatedName = firstName[0] + ". " + lastName
-     return destrucurizatedName
- })
+// let names = users.map((item) => {
+//      let { firstName, lastName } = item
+//      let destrucurizatedName = firstName[0] + ". " + lastName
+//      return destrucurizatedName
+//  })
 
- console.log(names)
+//  console.log(names)
+
+
+
+let modifiedUsers = users.map((item) => {
