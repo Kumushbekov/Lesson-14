@@ -760,3 +760,7 @@
 
 
 let modifiedUsers = users.map((item) => {
+     let obj = { ...item, fullName: item.firstName + ' ' + item.lastName }
+     return obj
+ })
+ console.log(modifiedUsers)
