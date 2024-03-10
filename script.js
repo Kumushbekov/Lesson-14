@@ -767,24 +767,33 @@
 
 
 
-let students = [
-     ['Анна', 85],
-     ['Иван', 92],
-     ['Мария', 78],
-     ['Алексей', 89],
-     ['Екатерина', 95],
-     ['Дмитрий', 77],
-     ['Ольга', 88],
-     ['Петр', 90],
-     ['Светлана', 84],
-     ['Артем', 91]
-   ];
+// let students = [
+//      ['Анна', 85],
+//      ['Иван', 92],
+//      ['Мария', 78],
+//      ['Алексей', 89],
+//      ['Екатерина', 95],
+//      ['Дмитрий', 77],
+//      ['Ольга', 88],
+//      ['Петр', 90],
+//      ['Светлана', 84],
+//      ['Артем', 91]
+//    ];
  
    
-  let modifiedStudents = students.map((item) => {
-     let [studentName, score] = item
-     let list = studentName + " получил(а) оценку " + score + "/100"
-     return list
-   })
+//   let modifiedStudents = students.map((item) => {
+//      let [studentName, score] = item
+//      let list = studentName + " получил(а) оценку " + score + "/100"
+//      return list
+//    })
  
-   console.log(modifiedStudents)
+//    console.log(modifiedStudents)
+
+let obj = {
+     firstName: "Ivan", 
+     lastName: "Ivanov", 
+     email: "ivanov@example.com", 
+     age: 25, 
+     gender: "male"
+   }
+ 
