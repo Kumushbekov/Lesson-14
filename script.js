@@ -805,11 +805,22 @@
 //  }
  
  
-let users = []
+// let users = []
 
-if(users.length) {
-    console.log("В списке есть люди", users)
+// if(users.length) {
+//     console.log("В списке есть люди", users)
+// } else {
+//     console.log("список пуст", users)
+// }
+
+
+let isAdult = confirm("Вам есть 18 лет?")
+
+if(isAdult) {
+    console.log("Заходите!")
 } else {
-    console.log("список пуст", users)
+    console.log("Вход запрещен!")
 }
 
+
+let tasks = []
