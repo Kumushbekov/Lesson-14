@@ -814,13 +814,23 @@
 // }
 
 
-let isAdult = confirm("Вам есть 18 лет?")
+// let isAdult = confirm("Вам есть 18 лет?")
 
-if(isAdult) {
-    console.log("Заходите!")
-} else {
-    console.log("Вход запрещен!")
+// if(isAdult) {
+//     console.log("Заходите!")
+// } else {
+//     console.log("Вход запрещен!")
+// }
+
+
+// let tasks = []
+
+if(!tasks.length) {
+    console.log("Задач не осталось")
 }
 
+let firstName = prompt("Введите имя")
 
-let tasks = []
+if(!firstName) {
+    console.log("Пусть тебя зовут тогда Асан")
+}
