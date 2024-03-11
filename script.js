@@ -798,10 +798,18 @@
 //    }
  
 
-if(firstName) {
-     console.log("Он написал имя")
- } else {
-     console.log("там пустая строка или null")
- }
+// if(firstName) {
+//      console.log("Он написал имя")
+//  } else {
+//      console.log("там пустая строка или null")
+//  }
  
  
+let users = []
+
+if(users.length) {
+    console.log("В списке есть люди", users)
+} else {
+    console.log("список пуст", users)
+}
+
