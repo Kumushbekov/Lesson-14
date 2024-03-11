@@ -789,11 +789,19 @@
  
 //    console.log(modifiedStudents)
 
-let obj = {
-     firstName: "Ivan", 
-     lastName: "Ivanov", 
-     email: "ivanov@example.com", 
-     age: 25, 
-     gender: "male"
-   }
+// let obj = {
+//      firstName: "Ivan", 
+//      lastName: "Ivanov", 
+//      email: "ivanov@example.com", 
+//      age: 25, 
+//      gender: "male"
+//    }
+ 
+
+if(firstName) {
+     console.log("Он написал имя")
+ } else {
+     console.log("там пустая строка или null")
+ }
+ 
  
