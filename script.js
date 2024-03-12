@@ -880,3 +880,14 @@ if(!filteredPrice.length) {
  console.log(productsArray)
  console.log(filteredPrice)
  
+
+ let filteredAge = users.filter((item) => {
+     let {age} = item
+     if (age >= 30 && age <= 35) {
+         return true
+     } else {
+         return false
+     }
+ })
+ 
+ console.log(filteredAge)
