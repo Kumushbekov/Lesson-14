@@ -871,3 +871,12 @@ if (price <= question) {
     return false
 }
 })
+
+
+if(!filteredPrice.length) {
+     alert("Нет товаров по такому запросу")
+ }
+     
+ console.log(productsArray)
+ console.log(filteredPrice)
+ 
