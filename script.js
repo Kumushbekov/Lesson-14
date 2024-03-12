@@ -861,3 +861,13 @@ let productsArray = [
      { name: 'Kurut', price: 30, expirationDate: '2023-06-20', countryOfOrigin: 'Kyrgyzstan' }
  
    ];
+
+   let question = prompt("Напишите максимальную сумму:")
+let filteredPrice = productsArray.filter((item) => {
+    let {price} = item
+if (price <= question) {
+    return true
+} else {
+    return false
+}
+})
