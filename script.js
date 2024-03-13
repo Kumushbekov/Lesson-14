@@ -837,57 +837,57 @@
 
 
 
-let productsArray = [
-     { name: 'Widget A', price: 100, expirationDate: '2024-12-31', countryOfOrigin: 'USA' },
-     { name: 'Gadget B', price: 150, expirationDate: '2025-06-30', countryOfOrigin: 'China' },
-     { name: 'Tool X', price: 200, expirationDate: '2024-10-15', countryOfOrigin: 'Germany' },
-     { name: 'Device Y', price: 50, expirationDate: '2023-08-20', countryOfOrigin: 'Japan' },
-     { name: 'Appliance Z', price: 120, expirationDate: '2025-03-15', countryOfOrigin: 'South Korea' },
-     { name: 'Accessory P', price: 90, expirationDate: '2024-09-01', countryOfOrigin: 'Taiwan' },
-     { name: 'Product Q', price: 110, expirationDate: '2025-04-30', countryOfOrigin: 'France' },
-     { name: 'Item M', price: 80, expirationDate: '2023-11-25', countryOfOrigin: 'Italy' },
-     { name: 'Gizmo N', price: 130, expirationDate: '2025-02-10', countryOfOrigin: 'Canada' },
-     { name: 'Thingamajig O', price: 70, expirationDate: '2024-07-05', countryOfOrigin: 'Brazil' },
-     { name: 'Contraption C', price: 105, expirationDate: '2023-12-20', countryOfOrigin: 'Mexico' },
-     { name: 'Doodad D', price: 75, expirationDate: '2024-05-10', countryOfOrigin: 'India' },
-     { name: 'Instrument E', price: 95, expirationDate: '2025-01-15', countryOfOrigin: 'Australia' },
-     { name: 'Product F', price: 115, expirationDate: '2024-08-30', countryOfOrigin: 'Spain' },
-     { name: 'Device G', price: 85, expirationDate: '2023-10-05', countryOfOrigin: 'Russia' },
-     { name: 'Accessory H', price: 125, expirationDate: '2025-07-10', countryOfOrigin: 'UK' },
-     { name: 'Tool I', price: 55, expirationDate: '2024-02-28', countryOfOrigin: 'Switzerland' },
-     { name: 'Widget J', price: 135, expirationDate: '2025-05-20', countryOfOrigin: 'Netherlands' },
-     { name: 'Electronic Gadget', price: 180, expirationDate: '2025-09-15', countryOfOrigin: 'South Korea' },
-     { name: 'Kitchen Appliance', price: 95, expirationDate: '2024-11-30', countryOfOrigin: 'Italy' },
-     { name: 'Kurut', price: 30, expirationDate: '2023-06-20', countryOfOrigin: 'Kyrgyzstan' }
+// let productsArray = [
+//      { name: 'Widget A', price: 100, expirationDate: '2024-12-31', countryOfOrigin: 'USA' },
+//      { name: 'Gadget B', price: 150, expirationDate: '2025-06-30', countryOfOrigin: 'China' },
+//      { name: 'Tool X', price: 200, expirationDate: '2024-10-15', countryOfOrigin: 'Germany' },
+//      { name: 'Device Y', price: 50, expirationDate: '2023-08-20', countryOfOrigin: 'Japan' },
+//      { name: 'Appliance Z', price: 120, expirationDate: '2025-03-15', countryOfOrigin: 'South Korea' },
+//      { name: 'Accessory P', price: 90, expirationDate: '2024-09-01', countryOfOrigin: 'Taiwan' },
+//      { name: 'Product Q', price: 110, expirationDate: '2025-04-30', countryOfOrigin: 'France' },
+//      { name: 'Item M', price: 80, expirationDate: '2023-11-25', countryOfOrigin: 'Italy' },
+//      { name: 'Gizmo N', price: 130, expirationDate: '2025-02-10', countryOfOrigin: 'Canada' },
+//      { name: 'Thingamajig O', price: 70, expirationDate: '2024-07-05', countryOfOrigin: 'Brazil' },
+//      { name: 'Contraption C', price: 105, expirationDate: '2023-12-20', countryOfOrigin: 'Mexico' },
+//      { name: 'Doodad D', price: 75, expirationDate: '2024-05-10', countryOfOrigin: 'India' },
+//      { name: 'Instrument E', price: 95, expirationDate: '2025-01-15', countryOfOrigin: 'Australia' },
+//      { name: 'Product F', price: 115, expirationDate: '2024-08-30', countryOfOrigin: 'Spain' },
+//      { name: 'Device G', price: 85, expirationDate: '2023-10-05', countryOfOrigin: 'Russia' },
+//      { name: 'Accessory H', price: 125, expirationDate: '2025-07-10', countryOfOrigin: 'UK' },
+//      { name: 'Tool I', price: 55, expirationDate: '2024-02-28', countryOfOrigin: 'Switzerland' },
+//      { name: 'Widget J', price: 135, expirationDate: '2025-05-20', countryOfOrigin: 'Netherlands' },
+//      { name: 'Electronic Gadget', price: 180, expirationDate: '2025-09-15', countryOfOrigin: 'South Korea' },
+//      { name: 'Kitchen Appliance', price: 95, expirationDate: '2024-11-30', countryOfOrigin: 'Italy' },
+//      { name: 'Kurut', price: 30, expirationDate: '2023-06-20', countryOfOrigin: 'Kyrgyzstan' }
  
-   ];
+//    ];
 
-   let question = prompt("Напишите максимальную сумму:")
-let filteredPrice = productsArray.filter((item) => {
-    let {price} = item
-if (price <= question) {
-    return true
-} else {
-    return false
-}
-})
+//    let question = prompt("Напишите максимальную сумму:")
+// let filteredPrice = productsArray.filter((item) => {
+//     let {price} = item
+// if (price <= question) {
+//     return true
+// } else {
+//     return false
+// }
+// })
 
 
-if(!filteredPrice.length) {
-     alert("Нет товаров по такому запросу")
- }
+// if(!filteredPrice.length) {
+//      alert("Нет товаров по такому запросу")
+//  }
      
- console.log(productsArray)
- console.log(filteredPrice)
+//  console.log(productsArray)
+//  console.log(filteredPrice)
  
 
- let filteredAge = users.filter((item) => {
-     let {age} = item
-     if (age >= 30 && age <= 35) {
-         return true
-     } else {
-         return false
-     }
- })
+//  let filteredAge = users.filter((item) => {
+//      let {age} = item
+//      if (age >= 30 && age <= 35) {
+//          return true
+//      } else {
+//          return false
+//      }
+//  })
  
- console.log(filteredAge)
+//  console.log(filteredAge)
