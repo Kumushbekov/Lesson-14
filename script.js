@@ -912,3 +912,7 @@ let firstName = prompt('Напишите свое имя:')
 
 let firstNameElement = document.getElementById('name')
 firstNameElement.innerText = firstName
+
+let element = document.getElementById('salam')
+
+element.innerText += ' Aleikum'
