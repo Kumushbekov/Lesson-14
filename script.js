@@ -898,3 +898,9 @@ let pId = document.getElementById('hello')
 console.log(1, pTagName)
 console.log(2, pClassName)
 console.log(3, pId)
+
+
+for(let i = 0; i < pTagName.length; i++) {
+     pTagName[i].innerText = 'salam aleikum ' + i
+ }
+ 
