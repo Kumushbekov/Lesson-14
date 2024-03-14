@@ -891,3 +891,10 @@
 //  })
  
 //  console.log(filteredAge)
+
+
+let pId = document.getElementById('hello')
+
+console.log(1, pTagName)
+console.log(2, pClassName)
+console.log(3, pId)
