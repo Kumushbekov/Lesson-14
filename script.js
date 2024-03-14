@@ -904,3 +904,11 @@ for(let i = 0; i < pTagName.length; i++) {
      pTagName[i].innerText = 'salam aleikum ' + i
  }
  
+
+ pId.innerText = 'Salam aleikum'
+
+
+let firstName = prompt('Напишите свое имя:')
+
+let firstNameElement = document.getElementById('name')
+firstNameElement.innerText = firstName
