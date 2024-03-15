@@ -6,3 +6,11 @@
     font-weight: normal;
     color: #102746;
 } */
+
+
+
+.search-form_field{
+    background: transparent url(svg/Oval\ \(2\).svg) no-repeat left center;
+    background-size: 16px;
+    border-bottom: 2px solid #BFC0C5;
+}

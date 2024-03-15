@@ -893,26 +893,26 @@
 //  console.log(filteredAge)
 
 
-let pId = document.getElementById('hello')
+// let pId = document.getElementById('hello')
 
-console.log(1, pTagName)
-console.log(2, pClassName)
-console.log(3, pId)
+// console.log(1, pTagName)
+// console.log(2, pClassName)
+// console.log(3, pId)
 
 
-for(let i = 0; i < pTagName.length; i++) {
-     pTagName[i].innerText = 'salam aleikum ' + i
- }
+// for(let i = 0; i < pTagName.length; i++) {
+//      pTagName[i].innerText = 'salam aleikum ' + i
+//  }
  
 
- pId.innerText = 'Salam aleikum'
+//  pId.innerText = 'Salam aleikum'
 
 
-let firstName = prompt('Напишите свое имя:')
+// let firstName = prompt('Напишите свое имя:')
 
-let firstNameElement = document.getElementById('name')
-firstNameElement.innerText = firstName
+// let firstNameElement = document.getElementById('name')
+// firstNameElement.innerText = firstName
 
-let element = document.getElementById('salam')
+// let element = document.getElementById('salam')
 
-element.innerText += ' Aleikum'
+// element.innerText += ' Aleikum'
