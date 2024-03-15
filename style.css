@@ -14,3 +14,8 @@
     background-size: 16px;
     border-bottom: 2px solid #BFC0C5;
 }
+
+.search-form_info{
+    display: flex;
+    flex-wrap: wrap;
+}
