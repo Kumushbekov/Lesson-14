@@ -19,3 +19,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.intro_subtitle{
+    max-width: 546px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
