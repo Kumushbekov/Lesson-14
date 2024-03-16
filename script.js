@@ -920,3 +920,9 @@
 
 function addPost() {
      let container = document.getElementById('container')
+
+    let div = document.createElement('div')
+    let p = document.createElement('p')
+    let img = document.createElement('img')
+    let like = document.createElement('button')
+    let dislike = document.createElement('button')
