@@ -939,3 +939,9 @@ function addPost() {
     like.innerText = 'Нравится👍'
     dislike.innerText = 'Не нравится👎'
 
+    div.append(img)
+    div.append(p)
+    div.append(like)
+    div.append(dislike)
+    container.append(div)
+}
