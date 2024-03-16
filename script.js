@@ -935,3 +935,7 @@ function addPost() {
     let urlForImg = prompt('Вставьте ссылку для картинки:')
     img.setAttribute('src', urlForImg)
     img.setAttribute('class', 'postImg')
+
+    like.innerText = 'Нравится👍'
+    dislike.innerText = 'Не нравится👎'
+
