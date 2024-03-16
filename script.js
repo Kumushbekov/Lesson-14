@@ -945,3 +945,5 @@ function addPost() {
     div.append(dislike)
     container.append(div)
 }
+
+     addPost()
