@@ -926,3 +926,8 @@ function addPost() {
     let img = document.createElement('img')
     let like = document.createElement('button')
     let dislike = document.createElement('button')
+
+    div.setAttribute('class', 'post')
+
+    let text = prompt('Напишите описание нового поста:')
+    p.innerText = text
