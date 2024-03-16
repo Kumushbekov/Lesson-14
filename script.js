@@ -931,3 +931,7 @@ function addPost() {
 
     let text = prompt('Напишите описание нового поста:')
     p.innerText = text
+
+    let urlForImg = prompt('Вставьте ссылку для картинки:')
+    img.setAttribute('src', urlForImg)
+    img.setAttribute('class', 'postImg')
