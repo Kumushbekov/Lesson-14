@@ -916,3 +916,7 @@
 // let element = document.getElementById('salam')
 
 // element.innerText += ' Aleikum'
+
+
+function addPost() {
+     let container = document.getElementById('container')
