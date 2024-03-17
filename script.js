@@ -951,3 +951,7 @@
 
 let imgEl = document.createElement('img')
 console.log(imgEl)
+
+.setAttribute(названиеАтрибута, значение)
+imgEl.setAttribute('src', 'https://st.depositphotos.com/1899425/1623/i/450/depositphotos_16232649-stock-photo-moraine-lake-sunrise-colorful-landscape.jpg')
+imgEl.setAttribute('width', '100%')
