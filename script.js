@@ -918,32 +918,36 @@
 // element.innerText += ' Aleikum'
 
 
-function addPost() {
-     let container = document.getElementById('container')
+// function addPost() {
+//      let container = document.getElementById('container')
 
-    let div = document.createElement('div')
-    let p = document.createElement('p')
-    let img = document.createElement('img')
-    let like = document.createElement('button')
-    let dislike = document.createElement('button')
+//     let div = document.createElement('div')
+//     let p = document.createElement('p')
+//     let img = document.createElement('img')
+//     let like = document.createElement('button')
+//     let dislike = document.createElement('button')
 
-    div.setAttribute('class', 'post')
+//     div.setAttribute('class', 'post')
 
-    let text = prompt('Напишите описание нового поста:')
-    p.innerText = text
+//     let text = prompt('Напишите описание нового поста:')
+//     p.innerText = text
 
-    let urlForImg = prompt('Вставьте ссылку для картинки:')
-    img.setAttribute('src', urlForImg)
-    img.setAttribute('class', 'postImg')
+//     let urlForImg = prompt('Вставьте ссылку для картинки:')
+//     img.setAttribute('src', urlForImg)
+//     img.setAttribute('class', 'postImg')
 
-    like.innerText = 'Нравится👍'
-    dislike.innerText = 'Не нравится👎'
+//     like.innerText = 'Нравится👍'
+//     dislike.innerText = 'Не нравится👎'
 
-    div.append(img)
-    div.append(p)
-    div.append(like)
-    div.append(dislike)
-    container.append(div)
-}
+//     div.append(img)
+//     div.append(p)
+//     div.append(like)
+//     div.append(dislike)
+//     container.append(div)
+// }
 
-     addPost()
+//      addPost()
+
+
+let imgEl = document.createElement('img')
+console.log(imgEl)
