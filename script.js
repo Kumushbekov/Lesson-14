@@ -969,3 +969,7 @@ function addText() {
 
      container.append(p)
 }
+
+let buttonEl = document.getElementById('button')
+buttonEl.addEventListener('click', addText)
+
