@@ -977,3 +977,5 @@ buttonEl.addEventListener('click', addText)
 function sayHello() {
      console.log('Salam aleikum')
  }
+
+ let buttonEl = document.getElementById('btn')
