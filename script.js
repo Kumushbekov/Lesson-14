@@ -949,13 +949,20 @@
 //      addPost()
 
 
-let imgEl = document.createElement('img')
-console.log(imgEl)
+// let imgEl = document.createElement('img')
+// console.log(imgEl)
 
-.setAttribute(названиеАтрибута, значение)
-imgEl.setAttribute('src', 'https://st.depositphotos.com/1899425/1623/i/450/depositphotos_16232649-stock-photo-moraine-lake-sunrise-colorful-landscape.jpg')
-imgEl.setAttribute('width', '100%')
+// .setAttribute(названиеАтрибута, значение)
+// imgEl.setAttribute('src', 'https://st.depositphotos.com/1899425/1623/i/450/depositphotos_16232649-stock-photo-moraine-lake-sunrise-colorful-landscape.jpg')
+// imgEl.setAttribute('width', '100%')
 
-let nationPicElement = document.getElementById('nation-pic')
-.append(элемент) - добавление элемента внутрь div#nation-pic
-nationPicElement.append(imgEl)
+// let nationPicElement = document.getElementById('nation-pic')
+// .append(элемент) - добавление элемента внутрь div#nation-pic
+// nationPicElement.append(imgEl)
+
+
+function addText() {
+     let container = document.getElementById('container')
+     let text = prompt("Введите текст:")
+     let p = document.createElement('p')
+     p.innerText = text
