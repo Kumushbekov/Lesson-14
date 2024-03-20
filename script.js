@@ -988,3 +988,7 @@ for(let i = 0; i < odds.length; i++) {
      evens[i].style.color = 'green'
  }
  
+ const text = document.getElementById('text')
+const btnRed = document.getElementById('btn-red')
+const btnGreen = document.getElementById('btn-green')
+const btnBlue = document.getElementById('btn-blue')
