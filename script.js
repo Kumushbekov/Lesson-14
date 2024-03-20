@@ -999,3 +999,8 @@ const btnBlue = document.getElementById('btn-blue')
 btnRed.addEventListener('click', () => {
      text.style.color = 'red'
  }) // первый вариант
+
+ function changeColorToGreen() {
+     text.style.color = 'green'
+ }
+ btnGreen.addEventListener('click', changeColorToGreen)  // второй вариант
