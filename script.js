@@ -961,21 +961,25 @@
 // nationPicElement.append(imgEl)
 
 
-function addText() {
-     let container = document.getElementById('container')
-     let text = prompt("Введите текст:")
-     let p = document.createElement('p')
-     p.innerText = text
+// function addText() {
+//      let container = document.getElementById('container')
+//      let text = prompt("Введите текст:")
+//      let p = document.createElement('p')
+//      p.innerText = text
 
-     container.append(p)
-}
+//      container.append(p)
+// }
 
-let buttonEl = document.getElementById('button')
-buttonEl.addEventListener('click', addText)
+// let buttonEl = document.getElementById('button')
+// buttonEl.addEventListener('click', addText)
 
 
-function sayHello() {
-     console.log('Salam aleikum')
+// function sayHello() {
+//      console.log('Salam aleikum')
+//  }
+
+//  let buttonEl = document.getElementById('btn')
+
+for(let i = 0; i < odds.length; i++) {
+     odds[i].style.color = 'red'
  }
-
- let buttonEl = document.getElementById('btn')
