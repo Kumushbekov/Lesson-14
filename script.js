@@ -1004,3 +1004,10 @@ btnRed.addEventListener('click', () => {
      text.style.color = 'green'
  }
  btnGreen.addEventListener('click', changeColorToGreen)  // второй вариант
+
+ 
+btnBlue.addEventListener('click', () => {
+     text.style.color = 'blue'
+ }) // третий вариант
+ 
+ 
