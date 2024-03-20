@@ -983,3 +983,8 @@
 for(let i = 0; i < odds.length; i++) {
      odds[i].style.color = 'red'
  }
+
+ for(let i = 0; i < evens.length; i++) {
+     evens[i].style.color = 'green'
+ }
+ 
