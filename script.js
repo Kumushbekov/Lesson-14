@@ -980,6 +980,9 @@
 
 //  let buttonEl = document.getElementById('btn')
 
+let text = document.getElementById('text')
+
+
 for(let i = 0; i < odds.length; i++) {
      odds[i].style.color = 'red'
  }
