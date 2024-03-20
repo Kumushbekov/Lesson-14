@@ -980,7 +980,7 @@
 
 //  let buttonEl = document.getElementById('btn')
 
-let text = document.getElementById('text')
+// let text = document.getElementById('text')
 
 
 for(let i = 0; i < odds.length; i++) {
@@ -995,3 +995,7 @@ for(let i = 0; i < odds.length; i++) {
 const btnRed = document.getElementById('btn-red')
 const btnGreen = document.getElementById('btn-green')
 const btnBlue = document.getElementById('btn-blue')
+
+btnRed.addEventListener('click', () => {
+     text.style.color = 'red'
+ }) // первый вариант
