@@ -1024,3 +1024,8 @@ console.log(text.classList.contains('red'))
 btn.addEventListener('click', () => {
      if (text.classList.contains('red')) {
          text.classList.remove('red') 
+     } else {
+          text.classList.add('red')
+      }
+  })
+  
