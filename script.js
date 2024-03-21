@@ -1020,3 +1020,7 @@ text.classList.add('xxl')
 text.classList.remove('red')
 
 console.log(text.classList.contains('red'))
+
+btn.addEventListener('click', () => {
+     if (text.classList.contains('red')) {
+         text.classList.remove('red') 
