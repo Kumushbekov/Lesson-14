@@ -983,31 +983,32 @@
 // let text = document.getElementById('text')
 
 
-for(let i = 0; i < odds.length; i++) {
-     odds[i].style.color = 'red'
- }
+// for(let i = 0; i < odds.length; i++) {
+//      odds[i].style.color = 'red'
+//  }
 
- for(let i = 0; i < evens.length; i++) {
-     evens[i].style.color = 'green'
- }
+//  for(let i = 0; i < evens.length; i++) {
+//      evens[i].style.color = 'green'
+//  }
  
- const text = document.getElementById('text')
-const btnRed = document.getElementById('btn-red')
-const btnGreen = document.getElementById('btn-green')
-const btnBlue = document.getElementById('btn-blue')
+//  const text = document.getElementById('text')
+// const btnRed = document.getElementById('btn-red')
+// const btnGreen = document.getElementById('btn-green')
+// const btnBlue = document.getElementById('btn-blue')
 
-btnRed.addEventListener('click', () => {
-     text.style.color = 'red'
- }) // первый вариант
+// btnRed.addEventListener('click', () => {
+//      text.style.color = 'red'
+//  }) // первый вариант
 
- function changeColorToGreen() {
-     text.style.color = 'green'
- }
- btnGreen.addEventListener('click', changeColorToGreen)  // второй вариант
+//  function changeColorToGreen() {
+//      text.style.color = 'green'
+//  }
+//  btnGreen.addEventListener('click', changeColorToGreen)  // второй вариант
 
  
-btnBlue.addEventListener('click', () => {
-     text.style.color = 'blue'
- }) // третий вариант
+// btnBlue.addEventListener('click', () => {
+//      text.style.color = 'blue'
+//  }) // третий вариант
  
- 
+const text = document.getElementById('text')
+const btn = document.getElementById('btn')
