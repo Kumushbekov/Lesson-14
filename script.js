@@ -1012,3 +1012,7 @@
  
 const text = document.getElementById('text')
 const btn = document.getElementById('btn')
+
+text.classList.add('title')
+text.classList.add('red')
+text.classList.add('xxl')
