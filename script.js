@@ -1010,22 +1010,24 @@
 //      text.style.color = 'blue'
 //  }) // третий вариант
  
-const text = document.getElementById('text')
-const btn = document.getElementById('btn')
+// const text = document.getElementById('text')
+// const btn = document.getElementById('btn')
 
-text.classList.add('title')
-text.classList.add('red')
-text.classList.add('xxl')
+// text.classList.add('title')
+// text.classList.add('red')
+// text.classList.add('xxl')
 
-text.classList.remove('red')
+// text.classList.remove('red')
 
-console.log(text.classList.contains('red'))
+// console.log(text.classList.contains('red'))
 
-btn.addEventListener('click', () => {
-     if (text.classList.contains('red')) {
-         text.classList.remove('red') 
-     } else {
-          text.classList.add('red')
-      }
-  })
+// btn.addEventListener('click', () => {
+//      if (text.classList.contains('red')) {
+//          text.classList.remove('red') 
+//      } else {
+//           text.classList.add('red')
+//       }
+//   })
   
+
+let image = document.getElementById('image')
