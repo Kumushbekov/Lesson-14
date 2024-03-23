@@ -1048,3 +1048,8 @@ let showButton = document.getElementById('showButton')
 let hideButton = document.getElementById('hideButton')
 
 text.classList.add('hidenButton')
+
+hideButton.addEventListener('click', () => {
+     text.classList.add('hidenButton')
+ })
+ 
