@@ -1046,3 +1046,5 @@
 let text = document.getElementById('text')
 let showButton = document.getElementById('showButton')
 let hideButton = document.getElementById('hideButton')
+
+text.classList.add('hidenButton')
