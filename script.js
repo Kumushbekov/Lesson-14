@@ -1043,17 +1043,19 @@
 //   })
 
 
-let text = document.getElementById('text')
-let showButton = document.getElementById('showButton')
-let hideButton = document.getElementById('hideButton')
+// let text = document.getElementById('text')
+// let showButton = document.getElementById('showButton')
+// let hideButton = document.getElementById('hideButton')
 
-text.classList.add('hidenButton')
+// text.classList.add('hidenButton')
 
-hideButton.addEventListener('click', () => {
-     text.classList.add('hidenButton')
-})
+// hideButton.addEventListener('click', () => {
+//      text.classList.add('hidenButton')
+// })
  
-showButton.addEventListener('click', () => {
-     text.classList.remove('hidenButton')
-})
+// showButton.addEventListener('click', () => {
+//      text.classList.remove('hidenButton')
+// })
   
+
+let image = document.getElementById('image')
