@@ -1059,3 +1059,5 @@
   
 
 let image = document.getElementById('image')
+
+image.addEventListener('click', () => {
