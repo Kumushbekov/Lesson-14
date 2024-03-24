@@ -1063,3 +1063,5 @@ let image = document.getElementById('image')
 image.addEventListener('click', () => {
      console.log(image.getAttribute('src'))
     if ('https://cdn-icons-png.flaticon.com/512/4315/4315713.png' === image.getAttribute('src')) {
+     image.setAttribute('src', 'https://cdn-icons-png.flaticon.com/512/6364/6364352.png')
+} else {
