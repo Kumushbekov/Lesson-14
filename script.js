@@ -1080,3 +1080,8 @@ hideButton.addEventListener('click', () => {
      text.classList.add('hidenButton')
  })
  
+ showButton.addEventListener('click', () => {
+     text.classList.remove('hidenButton')
+ })
+ 
+ 
