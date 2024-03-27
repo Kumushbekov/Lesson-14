@@ -1095,3 +1095,9 @@ input.addEventListener('input', () => {
 button.addEventListener('click', () => {
     alert('Вы написали следующее сообщение: ' + input.value)
 }) 
+
+function addText() {
+     let container = document.getElementById('container')
+     let text = prompt("Введите текст:")
+     let p = document.createElement('p')
+     p.innerText = text
