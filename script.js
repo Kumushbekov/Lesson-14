@@ -1087,3 +1087,7 @@
 
 const input = document.getElementById('message')
 const button = document.getElementById('button')
+
+input.addEventListener('input', () => {
+     console.log(input.value)
+ })
