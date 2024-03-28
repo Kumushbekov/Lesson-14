@@ -1124,3 +1124,6 @@ function addText() {
     let text = prompt("Введите текст:")
     let p = document.createElement('p')
     p.innerText = text
+
+        container.append(p)
+}
