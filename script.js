@@ -1114,3 +1114,7 @@ const button = document.getElementById('button')
 input.addEventListener('input', () => {
     console.log(input.value)
 })
+
+button.addEventListener('click', () => {
+    alert('Вы написали следующее сообщение: ' + input.value)
+})
