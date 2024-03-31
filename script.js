@@ -1108,22 +1108,28 @@
 // let buttonEl = document.getElementById('button')
 // buttonEl.addEventListener('click', addText)     
 
-const input = document.getElementById('message')
-const button = document.getElementById('button')
 
-input.addEventListener('input', () => {
-    console.log(input.value)
-})
+// const input = document.getElementById('message')
+// const button = document.getElementById('button')
 
-button.addEventListener('click', () => {
-    alert('Вы написали следующее сообщение: ' + input.value)
-})
+// input.addEventListener('input', () => {
+//     console.log(input.value)
+// })
 
-function addText() {
-    let container = document.getElementById('container')
-    let text = prompt("Введите текст:")
-    let p = document.createElement('p')
-    p.innerText = text
+// button.addEventListener('click', () => {
+//     alert('Вы написали следующее сообщение: ' + input.value)
+// })
 
-        container.append(p)
-}
+// function addText() {
+//     let container = document.getElementById('container')
+//     let text = prompt("Введите текст:")
+//     let p = document.createElement('p')
+//     p.innerText = text
+
+//         container.append(p)
+// }
+
+
+<div>
+<h1>Анкета для участников программы по обучению IT на декабрь 2023:</h1>
+</div>
