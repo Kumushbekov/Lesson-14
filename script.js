@@ -1139,3 +1139,9 @@ const form = document.getElementById('form')
 
 // добавление события для отправки формы:
 form.addEventListener('submit', (event) => {
+     // отмена перещагрузки страницы для формы:
+    event.preventDefault()
+
+    // создание объекта данных формы от элемента form
+    const formdata = new FormData(form)
+    
