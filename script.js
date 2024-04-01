@@ -1135,3 +1135,7 @@
 </div>
 
 
+const form = document.getElementById('form')
+
+// добавление события для отправки формы:
+form.addEventListener('submit', (event) => {
