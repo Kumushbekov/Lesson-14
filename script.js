@@ -1145,3 +1145,11 @@ form.addEventListener('submit', (event) => {
     // создание объекта данных формы от элемента form
     const formdata = new FormData(form)
     
+    let formDataArray = Array.from(formdata);
+    // console.log(formDataArray) // как вариант
+
+    // let formDataObject = Object.fromEntries(formDataArray);
+    // console.log(formDataObject)
+
+    console.log('form submitted', formdata)
+})
