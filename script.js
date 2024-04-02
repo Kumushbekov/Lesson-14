@@ -1153,3 +1153,11 @@ form.addEventListener('submit', (event) => {
 
     console.log('form submitted', formdata)
 })
+
+
+const checkboxes = document.getElementsByClassName('checkbox')
+for(let i = 0; i < checkboxes.length; i++) {
+    checkboxes[i].addEventListener('change', () => {
+        console.log(checkboxes[i].checked)
+    })
+}
