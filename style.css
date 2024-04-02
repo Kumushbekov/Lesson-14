@@ -36,3 +36,13 @@
     color: white;
     margin-bottom: 22px;
 }
+
+
+.header {
+    margin-left: 45%;
+    /* justify-content: center; */
+}
+
+.family {
+    display: block
+}
