@@ -1162,6 +1162,13 @@ for(let i = 0; i < checkboxes.length; i++) {
     })
 }
 
+text.classList.add('hidenButton')
+
+hideButton.addEventListener('click', () => {
+    text.classList.add('hidenButton')
+})
+
+
 
 let text = document.getElementById('text')
 let showButton = document.getElementById('showButton')
