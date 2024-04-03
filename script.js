@@ -1161,3 +1161,8 @@ for(let i = 0; i < checkboxes.length; i++) {
         console.log(checkboxes[i].checked)
     })
 }
+
+
+let text = document.getElementById('text')
+let showButton = document.getElementById('showButton')
+let hideButton = document.getElementById('hideButton')
