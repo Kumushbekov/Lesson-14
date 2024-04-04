@@ -1199,3 +1199,7 @@ const USERS_DATABASE = [
     {"profession": "Ветеринар", "name": "Людмила", "age": 44},
     {"profession": "Журналист", "name": "Владимир", "age": 26}
 ]
+
+const container = document.getElementById('container')
+const searchInput = document.getElementById('searchInput')
+const searchButton = document.getElementById('searchButton')
