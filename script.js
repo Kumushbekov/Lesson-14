@@ -1221,3 +1221,7 @@ searchButton.addEventListener('click', () => {
         container.innerHTML = ''
     }
     
+    for(let i = 0; i < result.length; i++) {
+        const userEl = document.createElement('div')
+        const userNameEl = document.createElement('p')
+        const userProfession = document.createElement('p')
