@@ -1146,34 +1146,56 @@ form.addEventListener('submit', (event) => {
     const formdata = new FormData(form)
     
     let formDataArray = Array.from(formdata);
-    // console.log(formDataArray) // как вариант
+    console.log(formDataArray) // как вариант
 
-    // let formDataObject = Object.fromEntries(formDataArray);
-    // console.log(formDataObject)
+    let formDataObject = Object.fromEntries(formDataArray);
+    console.log(formDataObject)
 
     console.log('form submitted', formdata)
 })
 
 
-const checkboxes = document.getElementsByClassName('checkbox')
-for(let i = 0; i < checkboxes.length; i++) {
-    checkboxes[i].addEventListener('change', () => {
-        console.log(checkboxes[i].checked)
-    })
-}
+// const checkboxes = document.getElementsByClassName('checkbox')
+// for(let i = 0; i < checkboxes.length; i++) {
+//     checkboxes[i].addEventListener('change', () => {
+//         console.log(checkboxes[i].checked)
+//     })
+// }
 
-text.classList.add('hidenButton')
-
-hideButton.addEventListener('click', () => {
-    text.classList.add('hidenButton')
-})
-
-showButton.addEventListener('click', () => {
-    text.classList.remove('hidenButton')
-})
+// let text = document.getElementById('text')
+// let showButton = document.getElementById('showButton')
+// let hideButton = document.getElementById('hideButton')
 
 
+// text.classList.add('hidenButton')
 
-let text = document.getElementById('text')
-let showButton = document.getElementById('showButton')
-let hideButton = document.getElementById('hideButton')
+// hideButton.addEventListener('click', () => {
+//     text.classList.add('hidenButton')
+// })
+
+// showButton.addEventListener('click', () => {
+//     text.classList.remove('hidenButton')
+// })
+
+const USERS_DATABASE = [
+    {"profession": "Врач", "name": "Иван", "age": 35},
+    {"profession": "Учитель", "name": "Мария", "age": 42},
+    {"profession": "Инженер", "name": "Алексей", "age": 28},
+    {"profession": "Художник", "name": "Елена", "age": 30},
+    {"profession": "Программист", "name": "Петр", "age": 25},
+    {"profession": "Менеджер", "name": "Анна", "age": 38},
+    {"profession": "Фермер", "name": "Сергей", "age": 45},
+    {"profession": "Бухгалтер", "name": "Ольга", "age": 33},
+    {"profession": "Повар", "name": "Дмитрий", "age": 40},
+    {"profession": "Механик", "name": "Татьяна", "age": 31},
+    {"profession": "Адвокат", "name": "Артем", "age": 37},
+    {"profession": "Физиотерапевт", "name": "Екатерина", "age": 29},
+    {"profession": "Психолог", "name": "Алина", "age": 34},
+    {"profession": "Пожарный", "name": "Игорь", "age": 43},
+    {"profession": "Педиатр", "name": "Виктория", "age": 39},
+    {"profession": "Скульптор", "name": "Николай", "age": 27},
+    {"profession": "Маркетолог", "name": "Евгения", "age": 36},
+    {"profession": "Архитектор", "name": "Роман", "age": 32},
+    {"profession": "Ветеринар", "name": "Людмила", "age": 44},
+    {"profession": "Журналист", "name": "Владимир", "age": 26}
+]
