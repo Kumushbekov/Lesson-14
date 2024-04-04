@@ -1206,3 +1206,9 @@ const searchButton = document.getElementById('searchButton')
 
 searchButton.addEventListener('click', () => {
     const result = USERS_DATABASE.filter((item) => {
+        if (item.name.includes(searchInput.value)) {
+            return true
+        } else {
+            return false
+        }
+    })
