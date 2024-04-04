@@ -1212,3 +1212,12 @@ searchButton.addEventListener('click', () => {
             return false
         }
     })
+
+    console.log(searchInput.value, result)
+
+    if(result.length === 0) {
+        container.innerHTML = 'Не удалось найти людей по Вашему запросу'
+    } else {
+        container.innerHTML = ''
+    }
+    
