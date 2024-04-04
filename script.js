@@ -1203,3 +1203,6 @@ const USERS_DATABASE = [
 const container = document.getElementById('container')
 const searchInput = document.getElementById('searchInput')
 const searchButton = document.getElementById('searchButton')
+
+searchButton.addEventListener('click', () => {
+    const result = USERS_DATABASE.filter((item) => {
