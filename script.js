@@ -1242,3 +1242,9 @@ const container = document.getElementById('container')
 const searchInput = document.getElementById('searchInput')
 const searchButton = document.getElementById('searchButton')
 // const searchAge = document.getElementById('searchAge')
+
+function renderUsers() {
+    for(let i = 0; i < USERS_DATABASE.length; i++) {
+        const userEl = document.createElement('div')
+        const userNameEl = document.createElement('p')
+        const userProfession = document.createElement('p')
