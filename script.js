@@ -1261,3 +1261,12 @@ function renderUsers() {
         container.append(userEl)
     }
 }
+
+searchButton.addEventListener('click', () => {
+    const result = USERS_DATABASE.filter((item) => {
+        if (item.name.includes(searchInput.value)) {
+            return true
+        } else {
+            return false
+        }
+    })
