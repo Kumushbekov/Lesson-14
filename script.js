@@ -1248,3 +1248,7 @@ function renderUsers() {
         const userEl = document.createElement('div')
         const userNameEl = document.createElement('p')
         const userProfession = document.createElement('p')
+
+        userNameEl.textContent = USERS_DATABASE[i].name + ' (' + USERS_DATABASE[i].age + ' лет)'
+        userProfession.textContent = USERS_DATABASE[i].profession
+    
