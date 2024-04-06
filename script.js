@@ -1284,3 +1284,6 @@ for(let i = 0; i < result.length; i++) {
     const userEl = document.createElement('div')
     const userNameEl = document.createElement('p')
     const userProfession = document.createElement('p')
+
+    userNameEl.textContent = result[i].name + ' (' + result[i].age + ' лет)'
+    userProfession.textContent = result[i].profession
