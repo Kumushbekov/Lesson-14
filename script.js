@@ -1287,3 +1287,6 @@ for(let i = 0; i < result.length; i++) {
 
     userNameEl.textContent = result[i].name + ' (' + result[i].age + ' лет)'
     userProfession.textContent = result[i].profession
+
+    userEl.classList.add('user')
+    
