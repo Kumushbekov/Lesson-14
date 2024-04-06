@@ -1290,3 +1290,5 @@ for(let i = 0; i < result.length; i++) {
 
     userEl.classList.add('user')
     
+    userEl.append(userNameEl)
+    userEl.append(userProfession)
