@@ -1292,3 +1292,7 @@ for(let i = 0; i < result.length; i++) {
     
     userEl.append(userNameEl)
     userEl.append(userProfession)
+
+    container.append(userEl)
+}
+})
