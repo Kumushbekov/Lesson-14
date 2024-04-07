@@ -1301,3 +1301,11 @@ const searchInput = document.getElementById('searchInput')
 const searchButton = document.getElementById('searchButton')
 const searchAge = document.getElementById('searchAge')
 
+searchButton.addEventListener('click', () => {
+    const result = USERS_DATABASE.filter((item) => {
+        if (item.name.includes(searchInput.value)) {
+            return true
+        } else {
+            return false
+        }
+    })
