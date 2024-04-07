@@ -1330,3 +1330,9 @@ searchButton.addEventListener('click', () => {
     
         userEl.classList.add('user')
     
+        userEl.append(userNameEl)
+        userEl.append(userProfession)
+    
+        container.append(userEl)
+    }
+})
