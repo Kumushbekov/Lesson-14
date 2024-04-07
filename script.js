@@ -1295,4 +1295,9 @@ for(let i = 0; i < result.length; i++) {
 
     container.append(userEl)
 }
-})
+
+const container = document.getElementById('container')
+const searchInput = document.getElementById('searchInput')
+const searchButton = document.getElementById('searchButton')
+const searchAge = document.getElementById('searchAge')
+
